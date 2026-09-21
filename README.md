@@ -36,7 +36,10 @@ print("Hello, World!")
 ```
 Hello, World!
 ```
-
+## RUN PYTHON IN TWO WAYS : 
+- in python app
+- in riple
+- 
 ## ⭐ Why Learn Python?
 
 Python is popular because it is:
@@ -53,3 +56,21 @@ Python is especially useful for beginners because its syntax is clean and relati
 ---
 
 **Python File Extension:** `.py`
+
+## Single-Line Comment : 
+
+- Used to print single lined comments without displaying it / using in function .
+
+```
+#hello World
+```
+
+## Multi-Line Comment : 
+
+- Used to print multiple lined comments without displaying it / using in function .
+
+```
+'''
+hello World
+'''
+```
