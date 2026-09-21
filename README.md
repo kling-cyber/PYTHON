@@ -48,7 +48,7 @@ Hello, World!
 ## RUN PYTHON IN TWO WAYS :
 
 - in python app
-- in riple
+- in REPLE
 - 
 
 ---
