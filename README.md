@@ -57,7 +57,6 @@ Hello, World!
 
 > 🔹 in python app  
 > 🔹 in REPLE  
-> 🔹 
 
 ---
 
