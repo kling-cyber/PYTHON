@@ -31,7 +31,7 @@ Python is widely used in many fields:
 | 1 | **Web Development(DJANGO)** | 🌐 |
 | 2 | **Data Analysis(PYTHON)** | 📊 |
 | 3 | **Data Science** | 🔬 |
-| 4 | **Artificial Intelligence and Machine Learning(STREAMLIT | KERA | LINEAR REGRESSION)** | 🤖 |
+| 4 | **Artificial Intelligence and Machine Learning(STREAMLIT \| KERA \| LINEAR REGRESSION)** | 🤖 |
 | 5 | **Automation and Scripting** | ⚙️ |
 | 6 | **Software Development** | 💻 |
 | 7 | **Scientific Computing** | 🧪 |
