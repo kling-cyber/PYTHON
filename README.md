@@ -78,7 +78,6 @@ Python is popular because it is:
 
 ## 📄 Python File Extension: `.py`
 
----
 
 ## 💬 Single-Line Comment : 
 
