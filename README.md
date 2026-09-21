@@ -4,6 +4,8 @@ Python is a **high-level, general-purpose programming language** known for its s
 
 It was created by **Guido van Rossum** and first released in **1991**.
 
+---
+
 ## 📌 About Python
 
 - Python is **open-source** and freely available.
@@ -11,6 +13,8 @@ It was created by **Guido van Rossum** and first released in **1991**.
 - Python has a simple and readable syntax.
 - Python programs use the **.py** file extension.
 - Python supports procedural, object-oriented, and functional programming.
+
+---
 
 ## 🚀 Uses of Python
 
@@ -25,6 +29,8 @@ Python is widely used in many fields:
 7. **Scientific Computing**
 8. **Cybersecurity**
 
+---
+
 ## 💻 Simple Example
 
 ```python
@@ -36,10 +42,17 @@ print("Hello, World!")
 ```
 Hello, World!
 ```
-## RUN PYTHON IN TWO WAYS : 
+
+---
+
+## RUN PYTHON IN TWO WAYS :
+
 - in python app
 - in riple
 - 
+
+---
+
 ## ⭐ Why Learn Python?
 
 Python is popular because it is:
@@ -57,6 +70,8 @@ Python is especially useful for beginners because its syntax is clean and relati
 
 **Python File Extension:** `.py`
 
+---
+
 ## Single-Line Comment : 
 
 - Used to print single lined comments without displaying it / using in function .
@@ -64,6 +79,8 @@ Python is especially useful for beginners because its syntax is clean and relati
 ```
 #hello World
 ```
+
+---
 
 ## Multi-Line Comment : 
 
