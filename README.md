@@ -45,7 +45,7 @@ Hello, World!
 
 ---
 
-## RUN PYTHON IN TWO WAYS :
+## 🐍 RUN PYTHON IN TWO WAYS :
 
 - in python app
 - in REPLE
@@ -68,25 +68,25 @@ Python is especially useful for beginners because its syntax is clean and relati
 
 ---
 
-**Python File Extension:** `.py`
+## 📄 Python File Extension: `.py`
 
 ---
 
-## Single-Line Comment : 
+## 📌 Single-Line Comment : 
 
 - Used to print single lined comments without displaying it / using in function .
 
-```
+```python
 #hello World
 ```
 
 ---
 
-## Multi-Line Comment : 
+## 📌 Multi-Line Comment : 
 
 - Used to print multiple lined comments without displaying it / using in function .
 
-```
+```python
 '''
 hello World
 '''
