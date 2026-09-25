@@ -61,8 +61,8 @@ Python programs can be executed in different environments:
 > 🔹 **VS Code**  
 > 🔹 **Python IDLE**  
 > 🔹 **Jupyter Notebook**  
-> 🔹 **Command Prompt / Terminal**  
-
+> 🔹 **Command Prompt / Terminal**
+--- 
 
 ## ⭐ Why Learn Python?
 
@@ -162,10 +162,10 @@ or
 
 import random
 print(random.randomint(1,10))
+
 ```
 
 3. 📦 **Third-Party** = pre made modules made by other people or users
-
 > What is pip : python installp ackage , used to install package or module 
 <div align="center">
 
