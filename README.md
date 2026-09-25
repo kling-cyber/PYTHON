@@ -164,7 +164,8 @@ import random
 print(random.randomint(1,10))
 ```
 
-3. 📦 **Third-Party** = pre made modules made by other people or users 
+3. 📦 **Third-Party** = pre made modules made by other people or users
+
 > What is pip : python installp ackage , used to install package or module 
 <div align="center">
 
