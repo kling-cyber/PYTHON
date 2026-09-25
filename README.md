@@ -134,10 +134,28 @@ mymodule.greet()
 `````````````
 
 2. 🐍 **Pre-Defined** = system defined, already defined so no need to install because they are pre-defined
-  ````
+````
 import sys
 result = sys.version_info //used to print version of python in detail
-  ````
+print(result)
+
+or
+
+import math
+num = int(input("Enter a Number"))
+print(math.pow(num,2))
+
+or
+
+import datetime
+print(datetime.datetime.now)
+
+or
+
+import calendar
+print(calendar.calendar(2026))
+print(calendar.calendar.month(2026,9))
+````
 3. 📦 **Third-Party** =
 
 ---
