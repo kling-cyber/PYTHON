@@ -155,6 +155,11 @@ or
 import calendar
 print(calendar.calendar(2026))
 print(calendar.calendar.month(2026,9))
+
+or
+
+import random
+print(random.randomint(1,10))
 ````
 3. 📦 **Third-Party** =
 
