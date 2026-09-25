@@ -99,7 +99,14 @@ hello World
 ```
 
 ---
-
+## What is Module : 
+> A module is that file which is run after saving it as .py
+> Module are reusable
+> Sub types :
+  i) User-Defines = defined by users, can be named by user, it is reusable,  
+  ii) Pre-Defined = 
+ iii) Third-Party = 
+> 
 <div align="center">
 
 ### 🐍✨ Python • Learn • Build • Create ✨🐍
