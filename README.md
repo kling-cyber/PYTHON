@@ -78,35 +78,45 @@ Python is popular because it is:
 ## 📄 Python File Extension: `.py`
 
 
-## 💬 Single-Line Comment : 
+## 💬 Single-Line Comment :
 
-> 📝 Used to print single lined comments without displaying it / using in function .
+> 📝 Used to write single-line comments without displaying them during program execution.
 
 ```python
-#hello World
+# Hello World
 ```
 
 ---
 
-## 💬 Multi-Line Comment : 
+## 💬 Multi-Line Comment :
 
-> 📝 Used to print multiple lined comments without displaying it / using in function .
+> 📝 Used to write multiple lines of comments without displaying them during program execution.
 
 ```python
 '''
-hello World
+Hello World
 '''
 ```
 
 ---
-## What is Module : 
-> A module is that file which is run after saving it as .py
-> Module are reusable
-> Sub types :
-  i) User-Defines = defined by users, can be named by user, it is reusable,  
-  ii) Pre-Defined = 
- iii) Third-Party = 
-> 
+
+## 📦 What Is a Module?
+
+> A **module** is a Python file containing code that can be saved with the `.py` extension and reused in other Python programs.
+
+### 🔹 Types of Modules
+
+1. **User-Defined Modules**  
+   Modules created by the user. They can be given a user-defined name and reused in other programs.
+
+2. **Pre-Defined Modules**  
+   Modules that are provided with Python and can be imported and used in programs.
+
+3. **Third-Party Modules**  
+   Modules developed by external developers or organizations and installed separately using package managers such as `pip`.
+
+---
+
 <div align="center">
 
 ### 🐍✨ Python • Learn • Build • Create ✨🐍
