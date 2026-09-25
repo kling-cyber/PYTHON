@@ -113,118 +113,17 @@ This is a multi-line text block.
 
 ---
 
-## 📦 What Is a Module?
+## 📦 What is Module?
 
-> 🧩 A **module** is a Python file containing code, such as variables, functions, or classes, that can be imported and reused in other Python programs.
+> 🧩 A module is that file which is run after saving it as **.py**.
+>
+> ♻️ Modules are reusable.
 
-### 🔹 Types of Python Modules
+### 🔹 Sub Types
 
-#### 1️⃣ 👨‍💻 User-Defined Modules
-
-Modules created by the programmer for their own projects.
-
-```python
-# mymodule.py
-
-def greet():
-    print("Hello from my module!")
-```
-
-They can then be imported into another Python program:
-
-```python
-import mymodule
-
-mymodule.greet()
-```
-
----
-
-#### 2️⃣ 🐍 Standard Library Modules
-
-Python provides many modules as part of its **Standard Library**. These modules can be imported without installing them separately.
-
-Examples:
-
-- 📅 `datetime`
-- 🧮 `math`
-- 🎲 `random`
-- 💻 `os`
-- 📂 `sys`
-
-Example:
-
-```python
-import math
-
-print(math.sqrt(25))
-```
-
-### 📤 Output
-
-```text
-5.0
-```
-
----
-
-#### 3️⃣ 📦 Third-Party Modules
-
-Third-party modules are created by external developers or organizations and are installed separately.
-
-They can commonly be installed using `pip`:
-
-```bash
-pip install requests
-```
-
-Examples:
-
-- 🌐 `requests`
-- 📊 `pandas`
-- 🔢 `numpy`
-- 🤖 `scikit-learn`
-- 🌐 `flask`
-- 🚀 `django`
-
-Example:
-
-```python
-import requests
-
-response = requests.get("https://example.com")
-print(response.status_code)
-```
-
----
-
-## 🔗 Importing Modules
-
-Python provides several ways to import modules.
-
-### 📌 Import the Complete Module
-
-```python
-import math
-
-print(math.sqrt(16))
-```
-
-### 📌 Import a Specific Function
-
-```python
-from math import sqrt
-
-print(sqrt(16))
-```
-
-### 📌 Import Using an Alias
-
-```python
-import numpy as np
-
-print(np.array([1, 2, 3]))
-```
+1. 👨‍💻 **User-Defined** = Defined by users, can be named by the user, and is reusable.
+2. 🐍 **Pre-Defined** =
+3. 📦 **Third-Party** =
 
 ---
 
