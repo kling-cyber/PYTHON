@@ -122,7 +122,22 @@ This is a multi-line text block.
 ### 🔹 Sub Types
 
 1. 👨‍💻 **User-Defined** = Defined by users, can be named by the user, and is reusable.
-2. 🐍 **Pre-Defined** =
+``````
+mymodule.py
+import mymodule
+mymodule.greet()
+def greet():
+print("Hello from my module!")
+
+import mymodule
+mymodule.greet()
+`````````````
+
+2. 🐍 **Pre-Defined** = system defined, already defined so no need to install because they are pre-defined
+  ````
+import sys
+result = sys.version_info //used to print version of python in detail
+  ````
 3. 📦 **Third-Party** =
 
 ---
