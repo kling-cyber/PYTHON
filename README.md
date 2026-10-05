@@ -72,59 +72,91 @@ Python programs can be executed in different environments:
 > 🔹 **P** = Print  
 > 🔹 **L** = Loop
 
-REPL allows us to execute Python code directly in the Python interpreter.
-
 Example:
 
 ```text
->>> name = "brijesh"
+E:\data_analytics_data_science_630pm\data_analytics\module-3-python\core-python>python
+Python 3.14.7 (tags/v3.14.7:823f032, Aug  5 2026, 10:51:32) [MSC v.1944 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>> name='brijesh'
 >>> print(name)
 brijesh
+>>> a=10
+>>> b=20
+>>> print("additions of numbers is :",c)
+Traceback (most recent call last):
+File "<python-input-4>", line 1, in <module>
+print("additions of numbers is :",c)
+    ^
+NameError: name 'c' is not defined
+>>> print("additions of numbers is :",a+b)
+additions of numbers is : 30
+>>> name=input('enter your age:')
+enter your age:25
+>>> print(name)
+25
+>>>
 
->>> a = 10
->>> b = 20
->>> print("addition of numbers is :", a + b)
-addition of numbers is : 30
+>>> age=18
+>>> if age>=18:
+...     print('i am adult')
+...     else:
+...         print('i am child')
+...
+  File "<python-input-9>", line 3
+    else:
+    ^^^^
+SyntaxError: invalid syntax
+>>> if age>=18:
+...     print('i am adult')
+... else:
+...     print('i am child')
+...
+i am adult
+>>> for i in range(1,6):
+...     print(i)
+...
+1
+2
+3
+4
+5
+>>>
 ```
 
 ---
 
 ## 🧮 Python Variables
 
-A variable is used to store a value in Python.
-
 Example:
 
 ```python
-a = 20
-b = 20
-c = "hi"
-d = "kyu"
-e = """hi noori"""
-f = 10.6565
+a=10
+b=20
+c="hi"
+d='hey brijesh'
+e='''
+i am brijesh 
+done Mtech
+'''
+# single line comment
+# print is inbuilt function that can print user values 
+print(e)
 ```
-
-Python variables can store different types of values.
 
 ---
 
 ## 🖥️ Creating a Windows Application
 
-Python can be used to create a graphical Windows application using the `tkinter` module.
-
 ```python
 import tkinter as tk
-
-# create a windows screen
-root = tk.Tk()
-
-# create a title of windows app
-root.title("vaidehi notepad app")
-
+# create a windows screen 
+root=tk.Tk()
+# create a title of windows app 
+root.title('vaidehi notepad app')
 # create a geometry
-root.geometry("550x468")
-
-# display windows app
+root.geometry('550x468')
+# print windows app 
 tk.mainloop()
 ```
 --- 
