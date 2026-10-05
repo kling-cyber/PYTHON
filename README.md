@@ -132,6 +132,9 @@ i am adult
 ```
 ## 📜 Script Method
 
+![📜 Script Method](images/script-method.png)
+
+
 > 🔹 Script method is used to create a file with `.py`.
 >
 > 🔹 Script method stores backup files.
