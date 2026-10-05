@@ -15,7 +15,7 @@
 | ✨ | Details |
 |---|---|
 | 🟢 | Python is **open-source** and freely available. |
-| 🔤 | It is a **dynamically typed** language. |
+| 🔤 | It is a **dynamically/vercitle typed** language. |
 | 📖 | Python has a simple and readable syntax. |
 | 📄 | Python programs use the **.py** file extension. |
 | 🧩 | Python supports **procedural, object-oriented, and functional programming**. |
@@ -75,9 +75,6 @@ Python programs can be executed in different environments:
 Example:
 
 ```text
-E:\data_analytics_data_science_630pm\data_analytics\module-3-python\core-python>python
-Python 3.14.7 (tags/v3.14.7:823f032, Aug  5 2026, 10:51:32) [MSC v.1944 64 bit (AMD64)] on win32
-Type "help", "copyright", "credits" or "license" for more information.
 >>> name='brijesh'
 >>> print(name)
 brijesh
