@@ -63,6 +63,8 @@ Python programs can be executed in different environments:
 > 🔹 **Jupyter Notebook**  
 > 🔹 **Command Prompt / Terminal**
 
+---
+
 ## 🐍 REPL
 
 **REPL** stands for:
@@ -83,27 +85,27 @@ Python programs can be executed in different environments:
 Example:
 
 ```text
->>> name='brijesh'
+>>> name = 'brijesh'
 >>> print(name)
 brijesh
->>> a=10
->>> b=20
->>> print("additions of numbers is :",c)
+>>> a = 10
+>>> b = 20
+>>> print("additions of numbers is :", c)
 Traceback (most recent call last):
 File "<python-input-4>", line 1, in <module>
 print("additions of numbers is :",c)
     ^
 NameError: name 'c' is not defined
->>> print("additions of numbers is :",a+b)
+>>> print("additions of numbers is :", a + b)
 additions of numbers is : 30
->>> name=input('enter your age:')
+>>> name = input('enter your age:')
 enter your age:25
 >>> print(name)
 25
 >>>
 
->>> age=18
->>> if age>=18:
+>>> age = 18
+>>> if age >= 18:
 ...     print('i am adult')
 ...     else:
 ...         print('i am child')
@@ -118,7 +120,7 @@ SyntaxError: invalid syntax
 ...     print('i am child')
 ...
 i am adult
->>> for i in range(1,6):
+>>> for i in range(1, 6):
 ...     print(i)
 ...
 1
@@ -143,10 +145,10 @@ i am adult
 Example:
 
 ```python
-a=10
-b=20
-c="hi"
-d='hey brijesh'
+a = 10
+b = 20
+c = "hi"
+d = 'hey brijesh'
 e='''
 i am brijesh 
 done Mtech
