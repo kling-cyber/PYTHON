@@ -72,12 +72,13 @@ Python programs can be executed in different environments:
 > 🔹 **P** = Print  
 > 🔹 **L** = Loop
 
-DISADVANTAGE:
-> run on cmd
+### ⚠️ Disadvantages
 
-> does not store any back up
-
-> how to start in cmd : run python 
+> 🔹 Run on CMD
+>
+> 🔹 Does not store any backup
+>
+> 🔹 How to start in CMD: run `python`
 
 Example:
 
@@ -127,13 +128,13 @@ i am adult
 5
 >>>
 ```
-## SCRIPT METHOD
-script  method is used to create a file with .py
+## 📜 Script Method
 
-script method stores backup files 
-
-script can also be used in IDE Terminal 
-
+> 🔹 Script method is used to create a file with `.py`.
+>
+> 🔹 Script method stores backup files.
+>
+> 🔹 Script can also be used in the IDE Terminal.
 
 ---
 
@@ -170,7 +171,8 @@ root.geometry('550x468')
 # print windows app 
 tk.mainloop()
 ```
---- 
+
+---
 
 ## ⭐ Why Learn Python?
 
@@ -270,11 +272,14 @@ or
 
 import random
 print(random.randomint(1,10))
-
 ```
 
-3. 📦 **Third-Party** = pre made modules made by other people or users
-> What is pip : python installp ackage , used to install package or module 
+3. 📦 **Third-Party** = Pre-made modules made by other people or users.
+
+> 📦 **What is pip?** Python Package Installer, used to install packages or modules.
+
+---
+
 <div align="center">
 
 ### 🐍✨ Python • Learn • Build • Create ✨🐍
