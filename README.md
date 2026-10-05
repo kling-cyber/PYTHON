@@ -127,6 +127,13 @@ i am adult
 5
 >>>
 ```
+## SCRIPT METHOD
+script  method is used to create a file with .py
+
+script method stores backup files 
+
+script can also be used in IDE Terminal 
+
 
 ---
 
