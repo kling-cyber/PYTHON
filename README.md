@@ -62,6 +62,71 @@ Python programs can be executed in different environments:
 > 🔹 **Python IDLE**  
 > 🔹 **Jupyter Notebook**  
 > 🔹 **Command Prompt / Terminal**
+
+## 🐍 REPL
+
+**REPL** stands for:
+
+> 🔹 **R** = Read  
+> 🔹 **E** = Evaluate  
+> 🔹 **P** = Print  
+> 🔹 **L** = Loop
+
+REPL allows us to execute Python code directly in the Python interpreter.
+
+Example:
+
+```text
+>>> name = "brijesh"
+>>> print(name)
+brijesh
+
+>>> a = 10
+>>> b = 20
+>>> print("addition of numbers is :", a + b)
+addition of numbers is : 30
+```
+
+---
+
+## 🧮 Python Variables
+
+A variable is used to store a value in Python.
+
+Example:
+
+```python
+a = 20
+b = 20
+c = "hi"
+d = "kyu"
+e = """hi noori"""
+f = 10.6565
+```
+
+Python variables can store different types of values.
+
+---
+
+## 🖥️ Creating a Windows Application
+
+Python can be used to create a graphical Windows application using the `tkinter` module.
+
+```python
+import tkinter as tk
+
+# create a windows screen
+root = tk.Tk()
+
+# create a title of windows app
+root.title("vaidehi notepad app")
+
+# create a geometry
+root.geometry("550x468")
+
+# display windows app
+tk.mainloop()
+```
 --- 
 
 ## ⭐ Why Learn Python?
