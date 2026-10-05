@@ -280,7 +280,9 @@ print(random.randomint(1,10))
 
 3. 📦 **Third-Party** = Pre-made modules made by other people or users.
 
-> 📦 **What is pip?** Python Package Installer, used to install packages or modules.
+> 📦 **What is pip?**
+
+> Python Package Installer, used to install packages or modules.
 
 ---
 
