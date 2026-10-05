@@ -74,8 +74,10 @@ Python programs can be executed in different environments:
 
 DISADVANTAGE:
 > run on cmd
+
 > does not store any back up
-> how to start in cmd : run python
+
+> how to start in cmd : run python 
 
 Example:
 
