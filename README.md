@@ -72,6 +72,11 @@ Python programs can be executed in different environments:
 > 🔹 **P** = Print  
 > 🔹 **L** = Loop
 
+DISADVANTAGE:
+> run on cmd
+> does not store any back up
+> how to start in cmd : run python
+
 Example:
 
 ```text
