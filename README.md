@@ -205,6 +205,8 @@ Comments are used to add explanations or notes to Python code. They are ignored 
 
 A single-line comment starts with the `#` symbol.
 
+ctrl + ? shortcut for making all comment
+
 ```python
 # Hello World
 print("Hello World")
