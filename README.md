@@ -183,6 +183,24 @@ print(type(x))
 | 🔢 **Complex (`complex`)** | Complex numbers | `number = 3 + 4j` |
 | 🔤 **String (`str`)** | Text values | `name = "Kavish"` |
 | └─ **String Literal** | Text representation | `"Hello"` |
+
+### 💡 String Literal Example
+
+```python
+message = "Hello, my name is Kavish.\nI am learning Python programming.\nI am currently studying different data types.\nPython is easy and fun to learn."
+
+print(message)
+```
+
+### 📤 Output
+
+```text
+Hello, my name is Kavish.
+I am learning Python programming.
+I am currently studying different data types.
+Python is easy and fun to learn.
+```
+
 | ✅ **Boolean (`bool`)** | True or False | `is_passed = True` |
 | 📋 **List (`list`)** | Ordered collection | `numbers = [1, 2, 3]` |
 | 📦 **Tuple (`tuple`)** | Fixed collection | `data = (10, 20, 30)` |
