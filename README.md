@@ -180,6 +180,7 @@ print(type(x))
 |---|---|
 | 🔢 **Integer (`int`)** | `age = 20` |
 | 🔢 **Float (`float`)** | `price = 99.5` |
+| 🔢 **Complex (`complex`)** | `number = 3 + 4j` |
 | 🔤 **String (`str`)** | `name = "Kavish"` |
 | ✅ **Boolean (`bool`)** | `is_passed = True` |
 | 📋 **List (`list`)** | `numbers = [1, 2, 3]` |
