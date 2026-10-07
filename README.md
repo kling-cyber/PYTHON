@@ -182,6 +182,7 @@ print(type(x))
 | 🔢 **Float (`float`)** | Decimal numbers | `price = 99.5` |
 | 🔢 **Complex (`complex`)** | Complex numbers | `number = 3 + 4j` |
 | 🔤 **String (`str`)** | Text values | `name = "Kavish"` |
+| └─ **String Literal** | Text representation | `"Hello"` |
 | ✅ **Boolean (`bool`)** | True or False | `is_passed = True` |
 | 📋 **List (`list`)** | Ordered collection | `numbers = [1, 2, 3]` |
 | 📦 **Tuple (`tuple`)** | Fixed collection | `data = (10, 20, 30)` |
