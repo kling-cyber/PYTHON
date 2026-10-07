@@ -158,6 +158,7 @@ i am adult
 
 ## 🧩 Python Built-in Data Types
 > What type of values stored inside variables is called data types in python
+
 | Data Type | Example |
 |---|---|
 | 🔢 **Integer (`int`)** | `age = 20` |
