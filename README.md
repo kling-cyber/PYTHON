@@ -374,6 +374,11 @@ print(random.randomint(1,10))
 | `in` | `2 in [1, 2]` | Exists in sequence |
 | `not in` | `3 not in [1, 2]` | Does not exist in sequence |
 
+9. increment/decrement operator
+eg : ++ , --
+note : there is no pre - increment / pre - decrement in python , only post-increment /post-decrement
+
+
 ---
 
 <div align="center">
