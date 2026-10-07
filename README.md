@@ -291,23 +291,72 @@ print(random.randomint(1,10))
 
 ---
 
-## OPERATORS
-> operators is used to operate some action there we used opeartor
-> operator operand some actions there we used operators
-> Types :
-> 1. arithematical operator
-  eg  : +.-.%,*,/,**,//
-> 2. assignment operator 
-eg : = , == , += , -= , *= , %= , !=
-> 3. Comparison operator
-eg : > , < , >= , <= , ==
-> 4. logical operator
-eg : && , ||
-> 5. bitwise operator
-eg : >> , << , & , ^ , ~
-> 6. identity operator
-eg : is , is not  
+## ⚙️ Operators
 
+> 🔹 Operators are used to perform actions on values.
+>
+> 🔹 **Operand** = The value on which an operator works.
+
+### 🔢 1. Arithmetic Operators
+
+| Operator | Example | Meaning |
+|---|---|---|
+| `+` | `5 + 2` | Addition |
+| `-` | `5 - 2` | Subtraction |
+| `*` | `5 * 2` | Multiplication |
+| `/` | `5 / 2` | Division |
+| `%` | `5 % 2` | Remainder |
+| `**` | `5 ** 2` | Power |
+| `//` | `5 // 2` | Floor division |
+
+### 📝 2. Assignment Operators
+
+| Operator | Example | Meaning |
+|---|---|---|
+| `=` | `x = 5` | Assign |
+| `+=` | `x += 2` | Add & assign |
+| `-=` | `x -= 2` | Subtract & assign |
+| `*=` | `x *= 2` | Multiply & assign |
+| `%=` | `x %= 2` | Remainder & assign |
+
+### ⚖️ 3. Comparison Operators
+
+| Operator | Example | Meaning |
+|---|---|---|
+| `>` | `5 > 2` | Greater than |
+| `<` | `5 < 2` | Less than |
+| `>=` | `5 >= 2` | Greater/equal |
+| `<=` | `5 <= 2` | Less/equal |
+| `==` | `5 == 5` | Equal |
+| `!=` | `5 != 2` | Not equal |
+
+### 🧠 4. Logical Operators
+
+| Operator | Example | Meaning |
+|---|---|---|
+| `and` | `True and False` | Both true |
+| `or` | `True or False` | Either true |
+| `not` | `not True` | Reverses result |
+
+### 💾 5. Bitwise Operators
+
+| Operator | Example | Meaning |
+|---|---|---|
+| `&` | `5 & 3` | AND |
+| `|` | `5 | 3` | OR |
+| `^` | `5 ^ 3` | XOR |
+| `~` | `~5` | NOT |
+| `<<` | `5 << 1` | Left shift |
+| `>>` | `5 >> 1` | Right shift |
+
+### 🪪 6. Identity Operators
+
+| Operator | Example | Meaning |
+|---|---|---|
+| `is` | `a is b` | Same object |
+| `is not` | `a is not b` | Different object |
+
+---
 
 <div align="center">
 
