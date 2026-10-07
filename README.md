@@ -192,17 +192,6 @@ print(type(x))
 | 🗂️ **Dictionary (`dict`)** | Key-value pairs | `student = {"name": "Kavish", "age": 20}` |
 | 🚫 **None (`NoneType`)** | No value | `result = None` |
 
-### 🔤 String Formatter
-
-> 🔹 String formatting is used to insert values into a string.
-
-```python
-name = "Kavish"
-age = 20
-
-print(f"My name is {name} and I am {age} years old.")
-```
-
 ### 💡 Examples
 
 ```python
