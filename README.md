@@ -180,7 +180,7 @@ print(type(x))
 |---|---|---|
 | 🔢 **Integer (`int`)** | Whole numbers | `age = 20` |
 | 🔢 **Float (`float`)** | Decimal numbers | `price = 99.5` |
-| 🔢 **Complex (`complex`)** | Complex numbers | `number = 3 + 4j` |
+| 🔢 **Complex   (`complex`)** | Complex numbers | `number = 3 + 4j` |
 | 🔤 **String (`str`)** | Text values | `name = "Kavish"` |
 | └─ **String Literal** | Text representation | `message = "Hello, my name is Kavish.\nI am learning Python programming.\nI am currently studying different data types.\nPython is easy and fun to learn."` |
 | └─ **String Formatter** | Format strings | `f"{name} scored {marks}"` |
