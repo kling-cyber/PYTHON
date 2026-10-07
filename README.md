@@ -130,10 +130,12 @@ i am adult
 5
 >>>
 ```
+
+---
+
 ## 📜 Script Method
 
 ![📜 Script Method](images/script-method.png)
-
 
 > 🔹 Script method is used to create a file with `.py`.
 >
@@ -152,7 +154,7 @@ a = 10
 b = 20
 c = "hi"
 d = 'hey brijesh'
-e='''
+e = '''
 i am brijesh 
 done Mtech
 '''
@@ -168,7 +170,7 @@ print(e)
 ```python
 import tkinter as tk
 # create a windows screen 
-root=tk.Tk()
+root = tk.Tk()
 # create a title of windows app 
 root.title('vaidehi notepad app')
 # create a geometry
