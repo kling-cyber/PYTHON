@@ -159,6 +159,23 @@ i am adult
 ## 🧩 Python Built-in Data Types
 > What type of values stored inside variables is called data types in python
 
+### 🔍 `type()` Method
+
+> 🔹 The **`type()`** method is used to find the data type of a value or variable.
+
+### 💡 Example
+
+```python
+x = 10
+print(type(x))
+```
+
+### 📤 Output
+
+```text
+<class 'int'>
+```
+
 | Data Type | Example |
 |---|---|
 | 🔢 **Integer (`int`)** | `age = 20` |
