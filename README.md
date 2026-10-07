@@ -146,11 +146,14 @@ i am adult
 ---
 
 ## 🧮 Python Variables
-> A variable is like a container where we stored an information about data is called variables
-> A variable stored an information about data.
-> Python is high-level language so it does not need to be assign varibales with its data - types 
 
-Example:
+> 📦 A variable is like a container where we store information about data.
+>
+> 🔹 A variable stores information about data.
+>
+> 🐍 Python is a high-level language, so variables do not need to be assigned with data types.
+
+### 💡 Example
 
 ```python
 a = 10
