@@ -360,6 +360,20 @@ print(random.randomint(1,10))
   8. membership operator 
   eg : in , not in
 
+
+### 🔀 7. Conditional / Ternary Operator
+
+| Operator | Example | Meaning |
+|---|---|---|
+| Ternary | `x if condition else y` | Short if-else |
+
+### 🔎 8. Membership Operators
+
+| Operator | Example | Meaning |
+|---|---|---|
+| `in` | `2 in [1, 2]` | Exists in sequence |
+| `not in` | `3 not in [1, 2]` | Does not exist in sequence |
+
 ---
 
 <div align="center">
