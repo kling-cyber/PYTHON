@@ -289,6 +289,24 @@ print(random.randomint(1,10))
 
 ---
 
+## OPERATORS
+> operators is used to operate some action there we used opeartor
+> operator operand some actions there we used operators
+> Types :
+> 1. arithematical operator
+  eg  : +.-.%,*,/,**,//
+> 2. assignment operator 
+eg : = , == , += , -= , *= , %= , !=
+> 3. Comparison operator
+eg : > , < , >= , <= , ==
+> 4. logical operator
+eg : && , ||
+> 5. bitwise operator
+eg : >> , << , & , ^ , ~
+> 6. identity operator
+eg : is , is not  
+
+
 <div align="center">
 
 ### 🐍✨ Python • Learn • Build • Create ✨🐍
