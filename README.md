@@ -153,6 +153,38 @@ i am adult
 >
 > 🐍 Python is a high-level language, so variables do not need to be assigned with data types.
 
+
+---
+
+## 🧩 Python Built-in Data Types
+
+| Data Type | Example |
+|---|---|
+| 🔢 **Integer (`int`)** | `age = 20` |
+| 🔢 **Float (`float`)** | `price = 99.5` |
+| 🔤 **String (`str`)** | `name = "Kavish"` |
+| ✅ **Boolean (`bool`)** | `is_passed = True` |
+| 📋 **List (`list`)** | `numbers = [1, 2, 3]` |
+| 📦 **Tuple (`tuple`)** | `data = (10, 20, 30)` |
+| 🔹 **Set (`set`)** | `items = {1, 2, 3}` |
+| 🗂️ **Dictionary (`dict`)** | `student = {"name": "Kavish", "age": 20}` |
+| 🚫 **None (`NoneType`)** | `result = None` |
+
+### 💡 Examples
+
+```python
+age = 20
+price = 99.5
+name = "Kavish"
+is_passed = True
+
+numbers = [1, 2, 3]
+data = (10, 20, 30)
+items = {1, 2, 3}
+student = {"name": "Kavish", "age": 20}
+result = None
+```
+
 ## Rules to define Variables
 > We cannot use reserve key words to assign a variable
 > we cannot start a variable with nummber.
