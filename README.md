@@ -369,12 +369,17 @@ print(random.randomint(1,10))
 | `in` | `2 in [1, 2]` | Exists in sequence |
 | `not in` | `3 not in [1, 2]` | Does not exist in sequence |
 
-### 🔄 9. Increment / Decrement Operator
+### 🔄 9. Increment / Decrement Operators
 
-> **Operators:** `++`, `--`
+| Operator | Example | Meaning |
+|---|---|---|
+| `++` | `x++` | Increment |
+| `--` | `x--` | Decrement |
 
-> ⚠️ **Note:** Python does **not** support `++` or `--` increment/decrement operators.
-
+> ⚠️ **Note:** Python does **not** support `++` or `--` operators.
+>
+> 🔹 Use `x += 1` to increment.  
+> 🔹 Use `x -= 1` to decrement.
 
 ---
 
