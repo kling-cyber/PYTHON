@@ -355,11 +355,6 @@ print(random.randomint(1,10))
 |---|---|---|
 | `is` | `a is b` | Same object |
 | `is not` | `a is not b` | Different object |
-  7. conditional expression or ternary operator 
-  eg : ? :
-  8. membership operator 
-  eg : in , not in
-
 
 ### 🔀 7. Conditional / Ternary Operator
 
@@ -374,9 +369,11 @@ print(random.randomint(1,10))
 | `in` | `2 in [1, 2]` | Exists in sequence |
 | `not in` | `3 not in [1, 2]` | Does not exist in sequence |
 
-9. increment/decrement operator
-eg : ++ , --
-note : there is no pre - increment / pre - decrement in python , only post-increment /post-decrement
+### 🔄 9. Increment / Decrement Operator
+
+> **Operators:** `++`, `--`
+
+> ⚠️ **Note:** Python does **not** support `++` or `--` increment/decrement operators.
 
 
 ---
