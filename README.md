@@ -355,6 +355,10 @@ print(random.randomint(1,10))
 |---|---|---|
 | `is` | `a is b` | Same object |
 | `is not` | `a is not b` | Different object |
+  7. conditional expression or ternary operator 
+  eg : ? :
+  8. membership operator 
+  eg : in , not in
 
 ---
 
