@@ -184,6 +184,13 @@ print(type(x))
 | 🔤 **String (`str`)** | Text values | `name = "Kavish"` |
 | └─ **String Literal** | Text representation | `message = "Hello, my name is Kavish.\nI am learning Python programming.\nI am currently studying different data types.\nPython is easy and fun to learn."` |
 
+| ✅ **Boolean (`bool`)** | True or False | `is_passed = True` |
+| 📋 **List (`list`)** | Ordered collection | `numbers = [1, 2, 3]` |
+| 📦 **Tuple (`tuple`)** | Fixed collection | `data = (10, 20, 30)` |
+| 🔹 **Set (`set`)** | Unique values | `items = {1, 2, 3}` |
+| 🗂️ **Dictionary (`dict`)** | Key-value pairs | `student = {"name": "Kavish", "age": 20}` |
+| 🚫 **None (`NoneType`)** | No value | `result = None` |
+
 ### 🔤 String Formatter
 
 > 🔹 String formatting is used to insert values into a string.
@@ -194,13 +201,6 @@ age = 20
 
 print(f"My name is {name} and I am {age} years old.")
 ```
-
-| ✅ **Boolean (`bool`)** | True or False | `is_passed = True` |
-| 📋 **List (`list`)** | Ordered collection | `numbers = [1, 2, 3]` |
-| 📦 **Tuple (`tuple`)** | Fixed collection | `data = (10, 20, 30)` |
-| 🔹 **Set (`set`)** | Unique values | `items = {1, 2, 3}` |
-| 🗂️ **Dictionary (`dict`)** | Key-value pairs | `student = {"name": "Kavish", "age": 20}` |
-| 🚫 **None (`NoneType`)** | No value | `result = None` |
 
 ### 💡 Examples
 
