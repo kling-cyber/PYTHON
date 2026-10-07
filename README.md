@@ -153,12 +153,17 @@ i am adult
 >
 > 🐍 Python is a high-level language, so variables do not need to be assigned with data types.
 
-## Rules to define Variables
-> We cannot use reserve key words to assign a variable
-> we cannot start a variable with nummber.
-> we use special smbol (i.e only '_' underscore can be used)
+### 📏 Rules to Define Variables
+
+> 🔒 We cannot use reserved keywords as variable names.
+>
+> 🔢 A variable cannot start with a number.
+>
+> 🔹 Only the underscore `_` can be used as a special symbol.
+>
+> ⬜ We cannot use whitespace in a variable name.
+
 ### 💡 Example
-we cannot take white space with variable
 
 ```python
 a = 10
