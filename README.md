@@ -183,6 +183,12 @@ print(type(x))
 | 🔢 **Complex (`complex`)** | Complex numbers | `number = 3 + 4j` |
 | 🔤 **String (`str`)** | Text values | `name = "Kavish"` |
 | └─ **String Literal** | Text representation | `"Hello"` |
+| ✅ **Boolean (`bool`)** | True or False | `is_passed = True` |
+| 📋 **List (`list`)** | Ordered collection | `numbers = [1, 2, 3]` |
+| 📦 **Tuple (`tuple`)** | Fixed collection | `data = (10, 20, 30)` |
+| 🔹 **Set (`set`)** | Unique values | `items = {1, 2, 3}` |
+| 🗂️ **Dictionary (`dict`)** | Key-value pairs | `student = {"name": "Kavish", "age": 20}` |
+| 🚫 **None (`NoneType`)** | No value | `result = None` |
 
 ### 💡 String Literal Example
 
@@ -200,13 +206,6 @@ I am learning Python programming.
 I am currently studying different data types.
 Python is easy and fun to learn.
 ```
-
-| ✅ **Boolean (`bool`)** | True or False | `is_passed = True` |
-| 📋 **List (`list`)** | Ordered collection | `numbers = [1, 2, 3]` |
-| 📦 **Tuple (`tuple`)** | Fixed collection | `data = (10, 20, 30)` |
-| 🔹 **Set (`set`)** | Unique values | `items = {1, 2, 3}` |
-| 🗂️ **Dictionary (`dict`)** | Key-value pairs | `student = {"name": "Kavish", "age": 20}` |
-| 🚫 **None (`NoneType`)** | No value | `result = None` |
 
 ### 💡 Examples
 
