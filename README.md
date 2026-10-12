@@ -283,6 +283,20 @@ print(res)
 40
 ```
 
+### ❌ Remove a Specific Value Using `remove()`
+
+```python
+numbers = [10, 20, 30, 40]
+numbers.remove(20)
+print(numbers)
+```
+
+### 📤 Output
+
+```text
+[10, 30, 40]
+```
+
 ## 📊 List in Dictionary Using Pandas DataFrame
 
 ```python
