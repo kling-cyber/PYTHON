@@ -198,6 +198,75 @@ print(type(x))
 
 ---
 
+## 📋 List Operations
+
+### 🔢 Access the First Element Using Index 0
+
+```python
+numbers = [10, 20, 30, 40, 50]
+print(numbers[0])
+```
+
+### 📤 Output
+
+```text
+10
+```
+
+### 🔚 Access the Last Element Using Index -1
+
+```python
+numbers = [10, 20, 30, 40, 50]
+print(numbers[-1])
+```
+
+### 📤 Output
+
+```text
+50
+```
+
+### 🔄 Reverse a List Using Slicing
+
+```python
+numbers = [10, 20, 30, 40, 50]
+print(numbers[::-1])
+```
+
+### 📤 Output
+
+```text
+[50, 40, 30, 20, 10]
+```
+
+### ➕ Add a Value Using `append()`
+
+```python
+numbers = [10, 20, 30]
+numbers.append(40)
+print(numbers)
+```
+
+### 📤 Output
+
+```text
+[10, 20, 30, 40]
+```
+
+### 📍 Add a Value at a Specific Position Using `insert()`
+
+```python
+numbers = [10, 20, 30]
+numbers.insert(1, 15)
+print(numbers)
+```
+
+### 📤 Output
+
+```text
+[10, 15, 20, 30]
+```
+
 ## 📊 List in Dictionary Using Pandas DataFrame
 
 ```python
