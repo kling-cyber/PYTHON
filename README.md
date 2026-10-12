@@ -207,6 +207,19 @@ student = {"name": "Kavish", "age": 20}
 result = None
 ```
 
+### 🗂️ Dictionary: Accessing a Single Key
+
+```python
+student = {"name": "Kavish", "age": 20, "course": "Python"}
+print(student["name"])
+```
+
+### 📤 Output
+
+```text
+Kavish
+```
+
 ## Rules to define Variables
 > We cannot use reserve key words to assign a variable
 > we cannot start a variable with nummber.
