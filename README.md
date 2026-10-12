@@ -190,20 +190,9 @@ print(type(x))
 | 📦 **Tuple (`tuple`)** | Fixed collection | `data = (10, 20, 30)` |
 | 🔹 **Set (`set`)** | Unique values | `items = {1, 2, 3}` |
 | 🗂️ **Dictionary (`dict`)** | Key-value pairs | `student = {"name": "Kavish", "age": 20}` |
+| └─ **Accessing a Single Key** | Access one key | `student["name"]` |
+| └─ **Dictionary Constructor** | Creates dictionary | `student = dict(name="Kavish", age=20)` |
 | 🚫 **None (`NoneType`)** | No value | `result = None` |
-
-### 🗂️ Dictionary: Accessing a Single Key
-
-```python
-student = {"name": "Kavish", "age": 20, "course": "Python"}
-print(student["name"])
-```
-
-### 📤 Output
-
-```text
-Kavish
-```
 
 ## Rules to define Variables
 > We cannot use reserve key words to assign a variable
