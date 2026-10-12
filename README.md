@@ -192,21 +192,6 @@ print(type(x))
 | 🗂️ **Dictionary (`dict`)** | Key-value pairs | `student = {"name": "Kavish", "age": 20}` |
 | 🚫 **None (`NoneType`)** | No value | `result = None` |
 
-### 💡 Examples
-
-```python
-age = 20
-price = 99.5
-name = "Kavish"
-is_passed = True
-
-numbers = [1, 2, 3]
-data = (10, 20, 30)
-items = {1, 2, 3}
-student = {"name": "Kavish", "age": 20}
-result = None
-```
-
 ### 🗂️ Dictionary: Accessing a Single Key
 
 ```python
