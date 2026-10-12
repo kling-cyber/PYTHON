@@ -267,6 +267,22 @@ print(numbers)
 [10, 15, 20, 30]
 ```
 
+### 🗑️ Remove the Last Element Using `pop()`
+
+```python
+numbers = [10, 20, 30, 40]
+res = numbers.pop()
+print(numbers)
+print(res)
+```
+
+### 📤 Output
+
+```text
+[10, 20, 30]
+40
+```
+
 ## 📊 List in Dictionary Using Pandas DataFrame
 
 ```python
