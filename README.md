@@ -192,6 +192,7 @@ print(type(x))
 | 🗂️ **Dictionary (`dict`)** | Key-value pairs | `student = {"name": "Kavish", "age": 20}` |
 | └─ **Accessing a Single Key** | Access one key | `student["name"]` |
 | └─ **Dictionary Constructor** | Creates dictionary | `student = dict(name="Kavish", age=20)` |
+| └─ **List in Dictionary** | List as a value | `student = {"subjects": ["Python", "Java"]}` |
 | 🚫 **None (`NoneType`)** | No value | `result = None` |
 
 ## Rules to define Variables
