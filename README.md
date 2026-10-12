@@ -218,7 +218,6 @@ print(type(x))
 | └─ **List in Dictionary** | List as a value | `student = {"subjects": ["Python", "Java"]}` |
 | 🚫 **None (`NoneType`)** | No value | `result = None` |
 
----
 
 ### 📋 List Operations
 
@@ -346,7 +345,6 @@ print(numbers)
 [10, 99, 30, 40]
 ```
 
----
 
 ### 📊 List in Dictionary Using Pandas DataFrame
 
