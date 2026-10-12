@@ -186,7 +186,7 @@ print(type(x))
 | └─ **String Formatter** | Format strings | `f"{name} scored {marks}"` |
 | 🔹 **Pass Statement** | Does nothing | `if x > 0: pass` |
 | ✅ **Boolean (`bool`)** | True or False | `is_passed = True` |
-| 📋 **List (`list`)** | Ordered collection | `numbers = [1, 2, 3]` |
+| 📋 **List (`list`)** | Ordered collection/Like ARRAY | `numbers = [1, 2, 3]` |
 | 📦 **Tuple (`tuple`)** | Fixed collection | `data = (10, 20, 30)` |
 | 🔹 **Set (`set`)** | Unique values | `items = {1, 2, 3}` |
 | 🗂️ **Dictionary (`dict`)** | Key-value pairs | `student = {"name": "Kavish", "age": 20}` |
