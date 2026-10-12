@@ -45,7 +45,7 @@ Python is widely used in many fields:
 print("Hello, World!")
 ```
 
-### 📤 Output
+**📤 Output**
 
 ```text
 Hello, World!
@@ -170,7 +170,7 @@ x = 10
 print(type(x))
 ```
 
-### 📤 Output
+**📤 Output**
 
 ```text
 <class 'int'>
@@ -207,7 +207,7 @@ numbers = [10, 20, 30, 40, 50]
 print(numbers[0])
 ```
 
-### 📤 Output
+**📤 Output**
 
 ```text
 10
@@ -220,7 +220,7 @@ numbers = [10, 20, 30, 40, 50]
 print(numbers[-1])
 ```
 
-### 📤 Output
+**📤 Output**
 
 ```text
 50
@@ -233,7 +233,7 @@ numbers = [10, 20, 30, 40, 50]
 print(numbers[::-1])
 ```
 
-### 📤 Output
+**📤 Output**
 
 ```text
 [50, 40, 30, 20, 10]
@@ -247,7 +247,7 @@ numbers.append(40)
 print(numbers)
 ```
 
-### 📤 Output
+**📤 Output**
 
 ```text
 [10, 20, 30, 40]
@@ -261,7 +261,7 @@ numbers.insert(1, 15)
 print(numbers)
 ```
 
-### 📤 Output
+**📤 Output**
 
 ```text
 [10, 15, 20, 30]
@@ -276,7 +276,7 @@ print(numbers)
 print(res)
 ```
 
-### 📤 Output
+**📤 Output**
 
 ```text
 [10, 20, 30]
@@ -291,11 +291,26 @@ numbers.remove(20)
 print(numbers)
 ```
 
-### 📤 Output
+**📤 Output**
 
 ```text
 [10, 30, 40]
 ```
+
+### 🔢 Count Occurrences Using `count()`
+
+```python
+numbers = [10, 20, 20, 30, 20]
+print(numbers.count(20))
+```
+
+**📤 Output**
+
+```text
+3
+```
+
+---
 
 ## 📊 List in Dictionary Using Pandas DataFrame
 
@@ -312,13 +327,15 @@ df = pd.DataFrame(data)
 print(df)
 ```
 
-### 📤 Output
+**📤 Output**
 
 ```text
       Name  Age  Course
 0   Kavish   20  Python
 1  Brijesh   21    Java
 ```
+
+---
 
 ## Rules to define Variables
 > We cannot use reserve key words to assign a variable
