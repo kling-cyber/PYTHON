@@ -192,6 +192,50 @@ print(type(x))
 | └─ **List in Dictionary** | List as a value | `student = {"subjects": ["Python", "Java"]}` |
 | 🚫 **None (`NoneType`)** | No value | `result = None` |
 
+### 🧵 String Methods
+
+| Method | Description | Example |
+|---|---|---|
+| `upper()` | Converts text to uppercase | `"hello".upper()` → `'HELLO'` |
+| `lower()` | Converts text to lowercase | `"HELLO".lower()` → `'hello'` |
+| `capitalize()` | Capitalizes the first character | `"hello bro".capitalize()` → `'Hello bro'` |
+| `title()` | Capitalizes the first character of each word | `"hello bro".title()` → `'Hello Bro'` |
+| `swapcase()` | Changes uppercase letters to lowercase and vice versa | `"Hello".swapcase()` → `'hELLO'` |
+| `strip()` | Removes whitespace from both ends | `" hi ".strip()` → `'hi'` |
+| `lstrip()` | Removes whitespace from the left | `" hi".lstrip()` → `'hi'` |
+| `rstrip()` | Removes whitespace from the right | `"hi ".rstrip()` → `'hi'` |
+| `replace()` | Replaces part of a string | `"hello".replace("h", "y")` → `'yello'` |
+| `split()` | Splits a string into a list | `"a,b,c".split(",")` → `['a', 'b', 'c']` |
+| `join()` | Joins strings using a separator | `"-".join(["a", "b"])` → `'a-b'` |
+| `find()` | Returns the first matching position, or -1 if not found | `"hello".find("l")` → `2` |
+| `index()` | Returns the matching position, or raises an error if not found | `"hello".index("e")` → `1` |
+| `count()` | Counts occurrences of a substring | `"banana".count("a")` → `3` |
+| `startswith()` | Checks whether a string starts with given text | `"hello".startswith("he")` → `True` |
+| `endswith()` | Checks whether a string ends with given text | `"hello".endswith("lo")` → `True` |
+| `isalpha()` | Checks whether all characters are letters | `"hello".isalpha()` → `True` |
+| `isdigit()` | Checks whether all characters are digits | `"123".isdigit()` → `True` |
+| `isalnum()` | Checks whether all characters are letters or digits | `"abc123".isalnum()` → `True` |
+| `isspace()` | Checks whether all characters are whitespace | `"   ".isspace()` → `True` |
+| `center()` | Centers text within a specified width | `"hi".center(6, "-")` → `'--hi--'` |
+| `zfill()` | Pads the left side with zeros | `"42".zfill(5)` → `'00042'` |
+
+> 💡 **Note:** Strings are immutable in Python. String methods return new values rather than changing the original string in place.
+
+### 📋 List Methods
+
+| Method | Description | Example |
+|---|---|---|
+| `append()` | Adds one item to the end | `numbers.append(40)` |
+| `extend()` | Adds all items from another iterable | `numbers.extend([40, 50])` |
+| `insert()` | Adds an item at a specified position | `numbers.insert(1, 15)` |
+| `remove()` | Removes the first matching value | `numbers.remove(20)` |
+| `pop()` | Removes and returns an item by position; last item by default | `numbers.pop()` |
+| `clear()` | Removes all items | `numbers.clear()` |
+| `index()` | Returns the position of the first matching item | `numbers.index(20)` |
+| `count()` | Counts occurrences of a value | `numbers.count(20)` |
+| `sort()` | Sorts the list in place | `numbers.sort()` |
+| `reverse()` | Reverses the list in place | `numbers.reverse()` |
+| `copy()` | Returns a shallow copy of the list | `numbers.copy()` |
 
 ### 📋 List Operations
 
