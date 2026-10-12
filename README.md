@@ -153,44 +153,21 @@ i am adult
 ---
 
 ## 🧩 Python Built-in Data Types
-> What type of values stored inside variables is called data types in python
 
-### 🔍 `type()` Method
+### 📊 Data Types
 
-> 🔹 The **`type()`** method is used to find the data type of a value or variable.
-
-#### 💡 Example
-
-```python
-x = 10
-print(type(x))
-```
-
-**📤 Output**
-
-```text
-<class 'int'>
-```
-
-| Data Type | Definition | Example |
+| Data Type | Description | Example |
 |---|---|---|
 | 🔢 **Integer (`int`)** | Whole numbers | `age = 20` |
 | 🔢 **Float (`float`)** | Decimal numbers | `price = 99.5` |
-| 🔢 **Complex   (`complex`)** | Complex numbers | `number = 3 + 4j` |
+| 🔢 **Complex (`complex`)** | Real and imaginary parts | `number = 3 + 4j` |
 | 🔤 **String (`str`)** | Text values | `name = "Kavish"` |
-| └─ **String Literal** | Text representation | `message = "Hello, my name is Kavish.\nI am learning Python programming.\nI am currently studying different data types.\nPython is easy and fun to learn."` |
-| └─ **String Formatter** | Format strings | `f"{name} scored {marks}"` |
-| 🔹 **Pass Statement** | Does nothing | `if x > 0: pass` |
 | ✅ **Boolean (`bool`)** | True or False | `is_passed = True` |
-| 📋 **List (`list`)** | Ordered collection/Like ARRAY | `numbers = [1, 2, 3]` |
-| └─ **List Constructor** | Creates a list | `numbers = list((1, 2, 3))` |
-| 📦 **Tuple (`tuple`)** | Fixed collection | `data = (10, 20, 30)` |
-| 🔹 **Set (`set`)** | Unique values | `items = {1, 2, 3}` |
+| 📋 **List (`list`)** | Ordered, changeable collection | `numbers = [1, 2, 3]` |
+| 📦 **Tuple (`tuple`)** | Ordered, unchangeable collection | `data = (10, 20, 30)` |
+| 🔹 **Set (`set`)** | Collection of unique values | `items = {1, 2, 3}` |
 | 🗂️ **Dictionary (`dict`)** | Key-value pairs | `student = {"name": "Kavish", "age": 20}` |
-| └─ **Accessing a Single Key** | Access one key | `student["name"]` |
-| └─ **Dictionary Constructor** | Creates dictionary | `student = dict(name="Kavish", age=20)` |
-| └─ **List in Dictionary** | List as a value | `student = {"subjects": ["Python", "Java"]}` |
-| 🚫 **None (`NoneType`)** | No value | `result = None` |
+| 🚫 **None (`NoneType`)** | Represents no value | `result = None` |
 
 ### 🧵 String Methods
 
@@ -199,207 +176,43 @@ print(type(x))
 | `upper()` | Converts text to uppercase | `"hello".upper()` → `'HELLO'` |
 | `lower()` | Converts text to lowercase | `"HELLO".lower()` → `'hello'` |
 | `capitalize()` | Capitalizes the first character | `"hello bro".capitalize()` → `'Hello bro'` |
-| `title()` | Capitalizes the first character of each word | `"hello bro".title()` → `'Hello Bro'` |
-| `swapcase()` | Changes uppercase letters to lowercase and vice versa | `"Hello".swapcase()` → `'hELLO'` |
+| `title()` | Capitalizes each word | `"hello bro".title()` → `'Hello Bro'` |
+| `swapcase()` | Swaps letter case | `"Hello".swapcase()` → `'hELLO'` |
 | `strip()` | Removes whitespace from both ends | `" hi ".strip()` → `'hi'` |
 | `lstrip()` | Removes whitespace from the left | `" hi".lstrip()` → `'hi'` |
 | `rstrip()` | Removes whitespace from the right | `"hi ".rstrip()` → `'hi'` |
 | `replace()` | Replaces part of a string | `"hello".replace("h", "y")` → `'yello'` |
 | `split()` | Splits a string into a list | `"a,b,c".split(",")` → `['a', 'b', 'c']` |
 | `join()` | Joins strings using a separator | `"-".join(["a", "b"])` → `'a-b'` |
-| `find()` | Returns the first matching position, or -1 if not found | `"hello".find("l")` → `2` |
-| `index()` | Returns the matching position, or raises an error if not found | `"hello".index("e")` → `1` |
-| `count()` | Counts occurrences of a substring | `"banana".count("a")` → `3` |
-| `startswith()` | Checks whether a string starts with given text | `"hello".startswith("he")` → `True` |
-| `endswith()` | Checks whether a string ends with given text | `"hello".endswith("lo")` → `True` |
+| `find()` | Finds a substring, returns -1 if absent | `"hello".find("l")` → `2` |
+| `index()` | Finds a substring, raises an error if absent | `"hello".index("e")` → `1` |
+| `count()` | Counts substring occurrences | `"banana".count("a")` → `3` |
+| `startswith()` | Checks the starting text | `"hello".startswith("he")` → `True` |
+| `endswith()` | Checks the ending text | `"hello".endswith("lo")` → `True` |
 | `isalpha()` | Checks whether all characters are letters | `"hello".isalpha()` → `True` |
 | `isdigit()` | Checks whether all characters are digits | `"123".isdigit()` → `True` |
-| `isalnum()` | Checks whether all characters are letters or digits | `"abc123".isalnum()` → `True` |
+| `isalnum()` | Checks for letters or digits only | `"abc123".isalnum()` → `True` |
 | `isspace()` | Checks whether all characters are whitespace | `"   ".isspace()` → `True` |
-| `center()` | Centers text within a specified width | `"hi".center(6, "-")` → `'--hi--'` |
+| `center()` | Centers text within a width | `"hi".center(6, "-")` → `'--hi--'` |
 | `zfill()` | Pads the left side with zeros | `"42".zfill(5)` → `'00042'` |
 
-> 💡 **Note:** Strings are immutable in Python. String methods return new values rather than changing the original string in place.
+> 💡 **Note:** Strings are immutable, so these methods do not change the original string in place.
 
 ### 📋 List Methods
 
 | Method | Description | Example |
 |---|---|---|
 | `append()` | Adds one item to the end | `numbers.append(40)` |
-| `extend()` | Adds all items from another iterable | `numbers.extend([40, 50])` |
-| `insert()` | Adds an item at a specified position | `numbers.insert(1, 15)` |
+| `extend()` | Adds items from another iterable | `numbers.extend([40, 50])` |
+| `insert()` | Adds an item at a position | `numbers.insert(1, 15)` |
 | `remove()` | Removes the first matching value | `numbers.remove(20)` |
-| `pop()` | Removes and returns an item by position; last item by default | `numbers.pop()` |
+| `pop()` | Removes and returns an item; last by default | `numbers.pop()` |
 | `clear()` | Removes all items | `numbers.clear()` |
-| `index()` | Returns the position of the first matching item | `numbers.index(20)` |
+| `index()` | Finds the first matching item's position | `numbers.index(20)` |
 | `count()` | Counts occurrences of a value | `numbers.count(20)` |
 | `sort()` | Sorts the list in place | `numbers.sort()` |
 | `reverse()` | Reverses the list in place | `numbers.reverse()` |
-| `copy()` | Returns a shallow copy of the list | `numbers.copy()` |
-
-### 📋 List Operations
-
-#### 🔢 Access the First Element Using Index 0
-
-```python
-numbers = [10, 20, 30, 40, 50]
-print(numbers[0])
-```
-
-**📤 Output**
-
-```text
-10
-```
-
-#### 🔚 Access the Last Element Using Index -1
-
-```python
-numbers = [10, 20, 30, 40, 50]
-print(numbers[-1])
-```
-
-**📤 Output**
-
-```text
-50
-```
-
-#### 🔄 Reverse a List Using Slicing
-
-```python
-numbers = [10, 20, 30, 40, 50]
-print(numbers[::-1])
-```
-
-**📤 Output**
-
-```text
-[50, 40, 30, 20, 10]
-```
-
-#### 🔁 Reverse a List Using `reverse()`
-
-```python
-numbers = [10, 20, 30, 40, 50]
-numbers.reverse()
-print(numbers)
-```
-
-**📤 Output**
-
-```text
-[50, 40, 30, 20, 10]
-```
-
-#### ➕ Add a Value Using `append()`
-
-```python
-numbers = [10, 20, 30]
-numbers.append(40)
-print(numbers)
-```
-
-**📤 Output**
-
-```text
-[10, 20, 30, 40]
-```
-
-#### 📍 Add a Value at a Specific Position Using `insert()`
-
-```python
-numbers = [10, 20, 30]
-numbers.insert(1, 15)
-print(numbers)
-```
-
-**📤 Output**
-
-```text
-[10, 15, 20, 30]
-```
-
-#### 🗑️ Remove the Last Element Using `pop()`
-
-```python
-numbers = [10, 20, 30, 40]
-res = numbers.pop()
-print(numbers)
-print(res)
-```
-
-**📤 Output**
-
-```text
-[10, 20, 30]
-40
-```
-
-#### ❌ Remove a Specific Value Using `remove()`
-
-```python
-numbers = [10, 20, 30, 40]
-numbers.remove(20)
-print(numbers)
-```
-
-**📤 Output**
-
-```text
-[10, 30, 40]
-```
-
-#### 🔢 Count Occurrences Using `count()`
-
-```python
-numbers = [10, 20, 20, 30, 20]
-print(numbers.count(20))
-```
-
-**📤 Output**
-
-```text
-3
-```
-
-#### ✏️ Update an Element Using an Index
-
-```python
-numbers = [10, 20, 30, 40]
-numbers[1] = 99
-print(numbers)
-```
-
-**📤 Output**
-
-```text
-[10, 99, 30, 40]
-```
-
-
-### 📊 List in Dictionary Using Pandas DataFrame
-
-```python
-import pandas as pd
-
-data = {
-    "Name": ["Kavish", "Brijesh"],
-    "Age": [20, 21],
-    "Course": ["Python", "Java"]
-}
-
-df = pd.DataFrame(data)
-print(df)
-```
-
-**📤 Output**
-
-```text
-      Name  Age  Course
-0   Kavish   20  Python
-1  Brijesh   21    Java
-```
+| `copy()` | Returns a shallow copy | `numbers.copy()` |
 
 ---
 
