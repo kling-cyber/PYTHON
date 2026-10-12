@@ -10,6 +10,29 @@
 
 ---
 
+## 🧭 Contents
+
+- [📌 About Python](#-about-python)
+- [🚀 Uses of Python](#-uses-of-python)
+- [💻 Simple Python Example](#-simple-python-example)
+- [🐍 Ways to Run Python](#-ways-to-run-python)
+- [🐍 REPL](#-repl)
+- [📜 Script Method](#-script-method)
+- [🧮 Python Variables](#-python-variables)
+- [🧩 Python Built-in Data Types](#-python-built-in-data-types)
+  - [🔍 `type()` Method](#-type-method)
+  - [📋 List Operations](#-list-operations)
+  - [📊 List in Dictionary Using Pandas DataFrame](#-list-in-dictionary-using-pandas-dataframe)
+- [🧾 Rules to Define Variables](#-rules-to-define-variables)
+- [🖥️ Creating a Windows Application](#️-creating-a-windows-application)
+- [⭐ Why Learn Python?](#-why-learn-python)
+- [📄 Python File Extension](#-python-file-extension)
+- [💬 Comments in Python](#-comments-in-python)
+- [📦 What is Module?](#-what-is-module)
+- [⚙️ Operators](#️-operators)
+
+---
+
 ## 📌 About Python
 
 | ✨ | Details |
@@ -153,7 +176,6 @@ i am adult
 >
 > 🐍 Python is a high-level language, so variables do not need to be assigned with data types.
 
-
 ---
 
 ## 🧩 Python Built-in Data Types
@@ -163,7 +185,7 @@ i am adult
 
 > 🔹 The **`type()`** method is used to find the data type of a value or variable.
 
-### 💡 Example
+#### 💡 Example
 
 ```python
 x = 10
@@ -198,9 +220,9 @@ print(type(x))
 
 ---
 
-## 📋 List Operations
+### 📋 List Operations
 
-### 🔢 Access the First Element Using Index 0
+#### 🔢 Access the First Element Using Index 0
 
 ```python
 numbers = [10, 20, 30, 40, 50]
@@ -213,7 +235,7 @@ print(numbers[0])
 10
 ```
 
-### 🔚 Access the Last Element Using Index -1
+#### 🔚 Access the Last Element Using Index -1
 
 ```python
 numbers = [10, 20, 30, 40, 50]
@@ -226,7 +248,7 @@ print(numbers[-1])
 50
 ```
 
-### 🔄 Reverse a List Using Slicing
+#### 🔄 Reverse a List Using Slicing
 
 ```python
 numbers = [10, 20, 30, 40, 50]
@@ -239,7 +261,7 @@ print(numbers[::-1])
 [50, 40, 30, 20, 10]
 ```
 
-### ➕ Add a Value Using `append()`
+#### ➕ Add a Value Using `append()`
 
 ```python
 numbers = [10, 20, 30]
@@ -253,7 +275,7 @@ print(numbers)
 [10, 20, 30, 40]
 ```
 
-### 📍 Add a Value at a Specific Position Using `insert()`
+#### 📍 Add a Value at a Specific Position Using `insert()`
 
 ```python
 numbers = [10, 20, 30]
@@ -267,7 +289,7 @@ print(numbers)
 [10, 15, 20, 30]
 ```
 
-### 🗑️ Remove the Last Element Using `pop()`
+#### 🗑️ Remove the Last Element Using `pop()`
 
 ```python
 numbers = [10, 20, 30, 40]
@@ -283,7 +305,7 @@ print(res)
 40
 ```
 
-### ❌ Remove a Specific Value Using `remove()`
+#### ❌ Remove a Specific Value Using `remove()`
 
 ```python
 numbers = [10, 20, 30, 40]
@@ -297,7 +319,7 @@ print(numbers)
 [10, 30, 40]
 ```
 
-### 🔢 Count Occurrences Using `count()`
+#### 🔢 Count Occurrences Using `count()`
 
 ```python
 numbers = [10, 20, 20, 30, 20]
@@ -310,9 +332,23 @@ print(numbers.count(20))
 3
 ```
 
+#### ✏️ Update an Element Using an Index
+
+```python
+numbers = [10, 20, 30, 40]
+numbers[1] = 99
+print(numbers)
+```
+
+**📤 Output**
+
+```text
+[10, 99, 30, 40]
+```
+
 ---
 
-## 📊 List in Dictionary Using Pandas DataFrame
+### 📊 List in Dictionary Using Pandas DataFrame
 
 ```python
 import pandas as pd
@@ -337,11 +373,16 @@ print(df)
 
 ---
 
-## Rules to define Variables
+## 🧾 Rules to Define Variables
+
 > We cannot use reserve key words to assign a variable
+>
 > we cannot start a variable with nummber.
+>
 > we use special smbol (i.e only '_' underscore can be used)
+
 ### 💡 Example
+
 we cannot take white space with variable
 
 ```python
