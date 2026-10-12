@@ -195,6 +195,31 @@ print(type(x))
 | └─ **List in Dictionary** | List as a value | `student = {"subjects": ["Python", "Java"]}` |
 | 🚫 **None (`NoneType`)** | No value | `result = None` |
 
+---
+
+## 📊 List in Dictionary Using Pandas DataFrame
+
+```python
+import pandas as pd
+
+data = {
+    "Name": ["Kavish", "Brijesh"],
+    "Age": [20, 21],
+    "Course": ["Python", "Java"]
+}
+
+df = pd.DataFrame(data)
+print(df)
+```
+
+### 📤 Output
+
+```text
+      Name  Age  Course
+0   Kavish   20  Python
+1  Brijesh   21    Java
+```
+
 ## Rules to define Variables
 > We cannot use reserve key words to assign a variable
 > we cannot start a variable with nummber.
