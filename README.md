@@ -7,32 +7,6 @@
 ### 👨‍💻 Created by Guido van Rossum | 📅 First Released in 1991
 
 </div>
-
----
-
-## 🧭 Contents
-
-- [📌 About Python](#-about-python)
-- [🚀 Uses of Python](#-uses-of-python)
-- [💻 Simple Python Example](#-simple-python-example)
-- [🐍 Ways to Run Python](#-ways-to-run-python)
-- [🐍 REPL](#-repl)
-- [📜 Script Method](#-script-method)
-- [🧮 Python Variables](#-python-variables)
-- [🧩 Python Built-in Data Types](#-python-built-in-data-types)
-  - [🔍 `type()` Method](#-type-method)
-  - [📋 List Operations](#-list-operations)
-  - [📊 List in Dictionary Using Pandas DataFrame](#-list-in-dictionary-using-pandas-dataframe)
-- [🧾 Rules to Define Variables](#-rules-to-define-variables)
-- [🖥️ Creating a Windows Application](#️-creating-a-windows-application)
-- [⭐ Why Learn Python?](#-why-learn-python)
-- [📄 Python File Extension](#-python-file-extension)
-- [💬 Comments in Python](#-comments-in-python)
-- [📦 What is Module?](#-what-is-module)
-- [⚙️ Operators](#️-operators)
-
----
-
 ## 📌 About Python
 
 | ✨ | Details |
