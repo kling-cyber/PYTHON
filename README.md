@@ -234,6 +234,20 @@ print(numbers[::-1])
 [50, 40, 30, 20, 10]
 ```
 
+#### 🔁 Reverse a List Using `reverse()`
+
+```python
+numbers = [10, 20, 30, 40, 50]
+numbers.reverse()
+print(numbers)
+```
+
+**📤 Output**
+
+```text
+[50, 40, 30, 20, 10]
+```
+
 #### ➕ Add a Value Using `append()`
 
 ```python
