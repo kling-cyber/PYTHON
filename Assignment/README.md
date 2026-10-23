@@ -1,15 +1,12 @@
-# Python Assignments by TOPS Session
+# TOPS Assignment Sessions
 
-This folder contains assignment programs for TOPS sessions whose topics are covered in the repository's main README. These are standalone practice solutions, grouped by session.
+Only sessions whose assignment topics are covered by the main repository README are included here.
 
-## Coverage notes
+## Included sessions
 
-- **Session 1:** Basic `print()`, Python script files, and running scripts. Installation of Anaconda/Jupyter is a setup task, not a Python program.
-- **Session 2:** Variables, naming conventions, single-line and triple-quoted text/comments, and indentation.
-- **Session 3:** Built-in data types, `type()`, numeric conversion, input conversion, and boolean strings.
-- **Session 4:** String methods, splitting, slicing, and formatted output.
-- **Session 5:** Lists and tuples, list methods, and tuple immutability. The list operations are also practiced in the existing `Programs/` folder.
-- **Session 6:** Basic dictionary and set creation, dictionary updates/deletion, set union/intersection. The README introduces these types, but these operations are additional practice examples.
-- **Session 7:** Basic `if`/`else` and conditional/ternary expressions, which appear in the README examples and operators section.
+- **Session 2: Python Syntax, Variables, and Comments**: variable naming, assignments, comments, and indentation.
+- **Session 5: Lists and Tuples**: list creation and updates, `append()`, `extend()`, `pop()`, tuple immutability, and choosing lists versus tuples.
 
-The session files focus on topics already introduced in the README. They do not claim that every TOPS task or topic is fully covered by the README.
+## Not included yet
+
+Sessions 1, 3, 4, 6, and 7 are intentionally not included because at least one required task/topic is not sufficiently covered in the main README yet. They can be added after the relevant README topics are covered. Existing programs elsewhere in the repository have not been moved or deleted.
