@@ -1,12 +1,15 @@
 # TOPS Assignment Sessions
 
-Only sessions whose assignment topics are covered by the main repository README are included here.
+Session-wise Python practice files for the TOPS assignments.
 
-## Included sessions
+| Session | Topic | File |
+|---|---|---|
+| 1 | Introduction to Python | [Session_01_Introduction.py](Session_01_Introduction.py) |
+| 2 | Syntax, variables, and comments | [Session_02_Syntax_Variables_Comments.py](Session_02_Syntax_Variables_Comments.py) |
+| 3 | Data types and type conversion | [Session_03_Data_Types.py](Session_03_Data_Types.py) |
+| 4 | Strings | [Session_04_Strings.py](Session_04_Strings.py) |
+| 5 | Lists and tuples | [Session_05_Lists_Tuples.py](Session_05_Lists_Tuples.py) |
+| 6 | Dictionaries and sets | [Session_06_Dictionaries_Sets.py](Session_06_Dictionaries_Sets.py) |
+| 7 | Conditional statements | [Session_07_Conditional_Statements.py](Session_07_Conditional_Statements.py) |
 
-- **Session 2: Python Syntax, Variables, and Comments**: variable naming, assignments, comments, and indentation.
-- **Session 5: Lists and Tuples**: list creation and updates, `append()`, `extend()`, `pop()`, tuple immutability, and choosing lists versus tuples.
-
-## Not included yet
-
-Sessions 1, 3, 4, 6, and 7 are intentionally not included because at least one required task/topic is not sufficiently covered in the main README yet. They can be added after the relevant README topics are covered. Existing programs elsewhere in the repository have not been moved or deleted.
+**Note:** Session 1 includes code examples plus comments explaining the Jupyter/installation tasks, which must be completed in the appropriate local environment. These files are assignment solutions/practice, not a claim that every topic is explained in the main README.
