@@ -29,5 +29,6 @@ else:
     print("Keep Trying")
 
 # Ternary expression example from the README operators section.
-status = "Adult" if team_points >= 18 else "Minor"
+age = int(input("Enter your age: "))
+status = "Adult" if age >= 18 else "Minor"
 print("Ternary example:", status)
