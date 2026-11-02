@@ -7,7 +7,7 @@
 ### 👨‍💻 Created by Guido van Rossum | 📅 First Released in 1991
 
 </div>
-## 📌 About Python
+📌 About Python
 
 | ✨ | Details |
 |---|---|
