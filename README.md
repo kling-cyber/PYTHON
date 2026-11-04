@@ -468,26 +468,108 @@ print(random.randomint(1,10))
 
 ### 📚 Types of Statements
 
-1. 🔀 **Conditional Statements**
-   - Used to check conditions and make decisions.
-   - `if`
-   - `if-else`
-   - `if-elif-else`
-   - `match-case` (Python 3.10+)
+### 🔀 1. Conditional Statements
 
-2. 🔁 **Looping Statements**
-   - Used to execute a block of code repeatedly.
-   - `for`
-   - `while`
+> Used to execute different blocks of code depending on whether a condition is true or false.
 
-3. 🎮 **Control Flow Statements**
-   - Used to change the normal flow of execution.
-   - `break`
-   - `continue`
-   - `pass`
+| Statement | Definition |
+|---|---|
+| `if` | Executes a block when the condition is true. |
+| `if-else` | Chooses between two blocks of code. |
+| `if-elif-else` | Checks multiple conditions in order. |
+| `match-case` | Matches a value against different patterns (Python 3.10+). |
+
+**💡 Examples**
+
+```python
+# if
+age = 18
+if age >= 18:
+    print("Adult")
+
+# if-else
+if age >= 18:
+    print("Adult")
+else:
+    print("Minor")
+
+# if-elif-else
+marks = 75
+if marks >= 90:
+    print("Grade A")
+elif marks >= 60:
+    print("Grade B")
+else:
+    print("Needs improvement")
+
+# match-case
+day = 1
+match day:
+    case 1:
+        print("Monday")
+    case 2:
+        print("Tuesday")
+    case _:
+        print("Other day")
+```
+
+### 🔁 2. Looping Statements
+
+> Used to repeat a block of code while iterating over a sequence or while a condition remains true.
+
+| Statement | Definition |
+|---|---|
+| `for` | Repeats code for each item in a sequence or iterable. |
+| `while` | Repeats code as long as a condition is true. |
+
+**💡 Examples**
+
+```python
+# for loop
+for number in range(1, 4):
+    print(number)
+
+# while loop
+count = 1
+while count <= 3:
+    print(count)
+    count += 1
+```
+
+### 🎮 3. Control Flow Statements
+
+> Used to alter the normal execution of loops or leave a block of code empty temporarily.
+
+| Statement | Definition |
+|---|---|
+| `break` | Immediately exits the nearest loop. |
+| `continue` | Skips the current iteration and moves to the next one. |
+| `pass` | Does nothing; acts as a placeholder where a statement is required. |
+
+**💡 Examples**
+
+```python
+# break
+for number in range(1, 6):
+    if number == 3:
+        break
+    print(number)
+
+# continue
+for number in range(1, 4):
+    if number == 2:
+        continue
+    print(number)
+
+# pass
+for number in range(1, 4):
+    if number == 2:
+        pass
+    print(number)
+```
 
 ---
-
+ 
 <div align="center">
 
 ### 🐍✨ Python • Learn • Build • Create ✨🐍
