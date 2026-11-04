@@ -477,8 +477,8 @@ print(random.randomint(1,10))
 | `if` | Executes a block when the condition is true. |
 | `if-else` | Chooses between two blocks of code. |
 | `if-elif-else` | Checks multiple conditions in order. |
-| `Nested-if` | |
-| `switch-case` | Not supported in Python |
+| `Nested-if` | An `if` statement placed inside another `if` statement to check an additional condition. |
+| `switch-case` | Python does not have a traditional switch-case statement. The `match-case` statement provides similar functionality (Python 3.10+). |
 
 **💡 Examples**
 
@@ -502,6 +502,27 @@ elif marks >= 60:
     print("Grade B")
 else:
     print("Needs improvement")
+
+# Nested-if
+age = 20
+has_id = True
+if age >= 18:
+    if has_id:
+        print("Entry allowed")
+    else:
+        print("ID required")
+else:
+    print("Under age")
+
+# match-case (Python 3.10+)
+day = 2
+match day:
+    case 1:
+        print("Monday")
+    case 2:
+        print("Tuesday")
+    case _:
+        print("Invalid day")
 ```
 
 ### 🔁 2. Looping Statements
