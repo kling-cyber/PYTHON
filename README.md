@@ -501,16 +501,6 @@ elif marks >= 60:
     print("Grade B")
 else:
     print("Needs improvement")
-
-# match-case
-day = 1
-match day:
-    case 1:
-        print("Monday")
-    case 2:
-        print("Tuesday")
-    case _:
-        print("Other day")
 ```
 
 ### 🔁 2. Looping Statements
