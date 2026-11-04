@@ -463,6 +463,19 @@ print(random.randomint(1,10))
 ---
 
 <div align="center">
+    
+##STATEMENTS
+> python statements used to check true and false or numbers of iterations repeated again and again 
+### TYPES: 
+>Conditional
+>Looping
+>flow
+####COnditional
+>used to check true or false or multiple cases
+>if
+>if elif
+>elif
+>switch case : not supported in python
 
 ### 🐍✨ Python • Learn • Build • Create ✨🐍
 
