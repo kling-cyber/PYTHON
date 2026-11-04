@@ -477,7 +477,8 @@ print(random.randomint(1,10))
 | `if` | Executes a block when the condition is true. |
 | `if-else` | Chooses between two blocks of code. |
 | `if-elif-else` | Checks multiple conditions in order. |
-| `match-case` | Matches a value against different patterns (Python 3.10+). |
+| `Nested-if` | |
+| `switch-case` | Not supported in Python |
 
 **💡 Examples**
 
