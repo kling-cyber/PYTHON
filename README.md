@@ -462,20 +462,33 @@ print(random.randomint(1,10))
 
 ---
 
+## 📌 Python Statements
+
+> 🐍 Statements are instructions used to perform operations, make decisions, and control the flow of a Python program.
+
+### 📚 Types of Statements
+
+1. 🔀 **Conditional Statements**
+   - Used to check conditions and make decisions.
+   - `if`
+   - `if-else`
+   - `if-elif-else`
+   - `match-case` (Python 3.10+)
+
+2. 🔁 **Looping Statements**
+   - Used to execute a block of code repeatedly.
+   - `for`
+   - `while`
+
+3. 🎮 **Control Flow Statements**
+   - Used to change the normal flow of execution.
+   - `break`
+   - `continue`
+   - `pass`
+
+---
+
 <div align="center">
-    
-##STATEMENTS
-> python statements used to check true and false or numbers of iterations repeated again and again 
-### TYPES: 
->Conditional
->Looping
->flow
-####COnditional
->used to check true or false or multiple cases
->if
->if elif
->elif
->switch case : not supported in python
 
 ### 🐍✨ Python • Learn • Build • Create ✨🐍
 
