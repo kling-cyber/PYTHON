@@ -1,4 +1,4 @@
-# 5. Even or Odd
+# 2. Even or Odd
 
 def check_even_odd(n):
     if n % 2 == 0:
