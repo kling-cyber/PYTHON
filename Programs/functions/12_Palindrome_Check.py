@@ -1,4 +1,4 @@
-# 17. Palindrome Check
+# 12. Palindrome Check
 
 def is_palindrome(s):
     if s == s[::-1]:
