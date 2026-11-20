@@ -795,6 +795,32 @@ python -m pip show numpy
 >
 > 🔹 It provides support for creating and working with arrays.
 
+### 🔠 Specifying Data Types in NumPy Arrays
+
+> 🔹 NumPy allows you to specify the data type of array elements using the `dtype` parameter.
+>
+> 🔹 For example, `dtype=int` creates an array with integer elements.
+
+**💡 Example**
+
+```python
+import numpy as np
+
+# Integer array
+arr = ([1, 2, 3, 4, 5, 6, 7, 8, 9], dtype=int)
+res = np.array(arr)
+
+print(res)
+```
+
+**📤 Output**
+
+```text
+[1 2 3 4 5 6 7 8 9]
+```
+
+> 💡 **Note:** To set the data type directly, pass the list and `dtype` as arguments to `np.array()`, like this: `np.array([1, 2, 3], dtype=int)`.
+
 ### 📏 Types of Arrays Based on Dimensions
 
 | Array Type | Explanation |
