@@ -1,4 +1,4 @@
-# 13. Multiplication Table
+# 8. Multiplication Table
 
 def table(n):
     for i in range(1, 11):
