@@ -527,26 +527,59 @@ match day:
 
 ### 🔁 2. Looping Statements
 
-> Used to repeat a block of code while iterating over a sequence or while a condition remains true.
+> Loops are used to execute a block of code repeatedly. They reduce repeated code and make programs easier to manage.
 
-| Statement | Definition |
+### 📚 Types of Loops
+
+| Loop | Definition |
 |---|---|
-| `for` | Repeats code for each item in a sequence or iterable. |
-| `while` | Repeats code as long as a condition is true. |
+| `for` loop | Repeats a block of code for each item in a sequence or iterable. |
+| `while` loop | Repeats a block of code as long as the given condition is true. |
+| `Nested` loop | A loop written inside another loop. |
 
 **💡 Examples**
 
 ```python
-# for loop
+# 1. for loop
 for number in range(1, 4):
     print(number)
 
-# while loop
+# 2. while loop
 count = 1
 while count <= 3:
     print(count)
     count += 1
+
+# 3. Nested for loop
+for row in range(1, 3):
+    for column in range(1, 4):
+        print(row, column)
 ```
+
+### 🧰 Useful Loop Concepts
+
+| Concept | Explanation |
+|---|---|
+| `range()` | Generates a sequence of numbers, commonly used with a `for` loop. |
+| `break` | Stops the loop immediately. |
+| `continue` | Skips the current iteration and continues with the next one. |
+| `else` | Runs after a loop finishes normally, but not when it ends with `break`. |
+
+**💡 Examples**
+
+```python
+# range(start, stop, step)
+for number in range(1, 6, 2):
+    print(number)
+
+# loop with else
+for number in range(1, 4):
+    print(number)
+else:
+    print("Loop completed")
+```
+
+> 💡 **Note:** In `range(start, stop, step)`, the stop value is not included.
 
 ### 🎮 3. Control Flow Statements
 
