@@ -1,4 +1,4 @@
-# 6. Positive, Negative or Zero
+# 3. Positive, Negative or Zero
 
 def check_number(n):
     if n > 0:
