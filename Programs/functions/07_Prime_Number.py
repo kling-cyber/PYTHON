@@ -1,4 +1,4 @@
-# 12. Prime Number
+# 7. Prime Number
 
 def is_prime(n):
     if n <= 1:
