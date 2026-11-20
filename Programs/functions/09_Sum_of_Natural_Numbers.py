@@ -1,4 +1,4 @@
-# 14. Sum of Natural Numbers
+# 9. Sum of Natural Numbers
 
 def sum_natural(n):
     total = 0
