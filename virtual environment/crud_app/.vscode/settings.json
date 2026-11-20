@@ -1,0 +1,6 @@
+{
+    "chat.agent.sandbox.retryWithAllowNetworkRequests": true,
+    "chat.agent.sandbox.enabled": "on",
+    "chat.agent.sandbox.network.allowLocalNetwork": false,
+    "inlineChat.affordance": "editor"
+}
