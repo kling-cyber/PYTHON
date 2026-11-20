@@ -311,62 +311,196 @@ This is a multi-line text block.
 
 ---
 
+## 🧩 Python Functions
+
+> 🔹 A **function** is a reusable block of code that performs a specific task.
+>
+> 🔹 Functions help reduce repetition and make programs easier to understand, organize, and maintain.
+
+### 📚 Defining and Calling a Function
+
+- **Defining a function:** Use the `def` keyword followed by the function name and parentheses.
+- **Calling a function:** Write the function name followed by parentheses to execute it.
+
+**💡 Example**
+
+```python
+# Function definition
+def greet():
+    print("Hello, Python!")
+
+# Function call
+greet()
+```
+
+**📤 Output**
+
+```text
+Hello, Python!
+```
+
+### 📥 Parameters and Arguments
+
+> 🔹 **Parameters** are variables written in the function definition.
+>
+> 🔹 **Arguments** are the actual values passed when the function is called.
+
+```python
+def greet(name):          # name is a parameter
+    print("Hello", name)
+
+greet("Kavish")           # "Kavish" is an argument
+```
+
+**📤 Output**
+
+```text
+Hello Kavish
+```
+
+### ↩️ Return Statement
+
+> 🔹 The `return` statement sends a result back from a function to the place where it was called.
+
+```python
+def add(a, b):
+    return a + b
+
+result = add(10, 20)
+print(result)
+```
+
+**📤 Output**
+
+```text
+30
+```
+
+### ♻️ Reusability of Functions
+
+> 🔹 A function can be called multiple times in a program.
+>
+> 🔹 Write the code once and reuse it whenever required by calling the function.
+
+```python
+def square(number):
+    return number * number
+
+print(square(2))
+print(square(5))
+print(square(8))
+```
+
+**📤 Output**
+
+```text
+4
+25
+64
+```
+
+> 💡 **Note:** A function runs when it is called. Defining a function alone does not execute its body.
+
+---
+
 ## 📦 What is Module?
 
-> 🧩 A module is that file which is run after saving it as **.py**.
+> 🧩 A **module** is a Python file (`.py`) that contains reusable code, such as functions, variables, and classes.
 >
-> ♻️ Modules are reusable.
+> ♻️ Modules help organize code and allow it to be reused in other Python programs.
 
-### 🔹 Sub Types
+### 🔹 Types of Modules
 
-1. 👨‍💻 **User-Defined** = Defined by users, can be named by the user, and is reusable.
+1. 👨‍💻 **User-Defined Modules** = Modules created by the programmer.
+
+2. 🐍 **Built-in Modules** = Modules provided with Python, such as `math`, `random`, and `calendar`.
+
+3. 📦 **Third-Party Modules** = Modules or packages created by others and installed when needed, commonly using `pip`.
+
+### ♻️ Reusability of a Module Using `import`
+
+> 🔹 The `import` statement loads a module so that its functions and other definitions can be used in another Python file.
+>
+> 🔹 This avoids writing the same code again.
+
+### 💡 Example: Creating a Module with a Function
+
+Create a file named **mymodule.py**:
 
 ```python
-mymodule.py
-import mymodule
-mymodule.greet()
-def greet():
-    print("Hello from my module!")
+# mymodule.py
 
-import mymodule
-mymodule.greet()
+def greet(name):
+    print("Hello", name)
+
+def add(a, b):
+    return a + b
 ```
 
-2. 🐍 **Pre-Defined** = system defined, already defined so no need to install because they are pre-defined
+Create another file in the same folder named **main.py**:
 
 ```python
-import sys
-result = sys.version_info //used to print version of python in detail
+# main.py
+
+import mymodule
+
+mymodule.greet("Kavish")
+result = mymodule.add(10, 20)
+
 print(result)
-
-or
-
-import math
-num = int(input("Enter a Number"))
-print(math.pow(num,2))
-
-or
-
-import datetime
-print(datetime.datetime.now)
-
-or
-
-import calendar
-print(calendar.calendar(2026))
-print(calendar.calendar.month(2026,9))
-
-or
-
-import random
-print(random.randomint(1,10))
 ```
 
-3. 📦 **Third-Party** = Pre-made modules made by other people or users.
+**📤 Output**
 
-> 📦 **What is pip?**
+```text
+Hello Kavish
+30
+```
 
-> Python Package Installer, used to install packages or modules.
+### 🔍 Understanding the Example
+
+| Code | Explanation |
+|---|---|
+| `import mymodule` | Imports the user-defined module. |
+| `mymodule.greet("Kavish")` | Calls the `greet()` function from the module. |
+| `mymodule.add(10, 20)` | Calls the `add()` function and receives its returned result. |
+| `print(result)` | Displays the returned value. |
+
+> 💡 **Note:** Keep `mymodule.py` and `main.py` in the same folder for this example.
+
+### 🐍 Examples of Built-in Modules
+
+```python
+# math module
+import math
+print(math.pow(5, 2))
+
+# random module
+import random
+print(random.randint(1, 10))
+
+# calendar module
+import calendar
+print(calendar.month(2026, 9))
+
+# datetime module
+import datetime
+print(datetime.datetime.now())
+
+# sys module
+import sys
+print(sys.version)
+```
+
+### 📦 What is pip?
+
+> 🔹 **pip** stands for Python Package Installer.
+>
+> 🔹 It is used to install and manage third-party packages.
+
+```bash
+pip install package_name
+```
 
 ---
 
