@@ -822,6 +822,8 @@ import numpy as np
 
 > 🔹 A Python list can be converted into a NumPy array using `np.array()`.
 >
+> 🔹It is a Third Party module so we have to install it
+>
 > 🔹 Use `type()` to check the object's type and an index inside square brackets to access an individual element.
 >
 > 🔹 Array indexing starts from `0`, so the first element is at index `0`.
