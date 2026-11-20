@@ -1,4 +1,4 @@
-# 15. Reverse a String
+# 10. Reverse a String
 
 def reverse_string(s):
     return s[::-1]
