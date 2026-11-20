@@ -1,4 +1,4 @@
-# 11. Factorial
+# 6. Factorial
 
 def factorial(n):
     if n < 0:
