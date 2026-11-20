@@ -755,6 +755,40 @@ for number in range(1, 4):
 >
 > 🔹 NumPy provides powerful tools for working with numerical data and creating arrays.
 
+### ⚙️ How to Install NumPy
+
+> 🔹 NumPy can be installed using Python's package installer, `pip`.
+>
+> 🔹 After installation, import NumPy into your program and check its version to confirm it is available.
+
+**💡 Steps**
+
+1. **Install NumPy** using the terminal:
+
+```bash
+python -m pip install numpy
+```
+
+2. **Import NumPy** in your Python program:
+
+```python
+import numpy as np
+```
+
+3. **Check the installed version:**
+
+```python
+print(np.__version__)
+```
+
+4. **View package details** in the terminal:
+
+```bash
+python -m pip show numpy
+```
+
+> 💡 **Note:** Run installation and package-information commands in the terminal. Run the `import` and version-check statements inside a Python program or interpreter.
+
 ### 📚 Arrays Using NumPy
 
 > 🔹 **NumPy** is a third-party Python library used for numerical computing.
