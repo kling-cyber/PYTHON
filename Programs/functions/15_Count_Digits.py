@@ -1,4 +1,4 @@
-# 20. Count Digits
+# 15. Count Digits
 
 def count_digits(n):
     n = abs(n)
