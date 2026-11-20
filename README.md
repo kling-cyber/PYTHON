@@ -818,6 +818,46 @@ Import NumPy in your Python program:
 import numpy as np
 ```
 
+### 🔍 Creating an Array and Accessing Elements (Indexing)
+
+> 🔹 A Python list can be converted into a NumPy array using `np.array()`.
+>
+> 🔹 Use `type()` to check the object's type and an index inside square brackets to access an individual element.
+>
+> 🔹 Array indexing starts from `0`, so the first element is at index `0`.
+
+**💡 Example**
+
+```python
+import numpy as np
+
+arr = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+res = np.array(arr)
+
+print(res)
+print(type(res))
+
+print(res[0])  # Indexing
+print(res[1])  # Indexing
+print(res[2])  # Indexing
+print(res[3])  # Indexing
+print(res[4])  # Indexing
+```
+
+**📤 Output**
+
+```text
+[1 2 3 4 5 6 7 8 9]
+<class 'numpy.ndarray'>
+1
+2
+3
+4
+5
+```
+
+---
+
 **1. 0-D Array**
 
 ```python
