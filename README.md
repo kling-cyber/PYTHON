@@ -747,6 +747,116 @@ for number in range(1, 4):
     print(number)
 ```
 
+## 🔢 Python Arrays
+
+> 📦 An **array** is a data structure used to store multiple values in an organized way.
+>
+> 🐍 In Python, arrays for numerical and scientific computing are commonly created using the third-party library **NumPy**.
+>
+> 🔹 NumPy provides powerful tools for working with numerical data and creating arrays.
+
+### 📚 Arrays Using NumPy
+
+> 🔹 **NumPy** is a third-party Python library used for numerical computing.
+>
+> 🔹 It provides support for creating and working with arrays.
+
+### 📏 Types of Arrays Based on Dimensions
+
+| Array Type | Explanation |
+|---|---|
+| **0-D Array** | An array containing a single value, also called a scalar. |
+| **1-D Array** | A one-dimensional collection of values, arranged in a single sequence. |
+| **2-D Array** | Values arranged in rows and columns, like a table or matrix. |
+| **N-D Array** | An array with two or more dimensions. |
+
+### 💡 Examples Using NumPy
+
+First, install NumPy if it is not already installed:
+
+```bash
+pip install numpy
+```
+
+Import NumPy in your Python program:
+
+```python
+import numpy as np
+```
+
+**1. 0-D Array**
+
+```python
+import numpy as np
+
+arr = np.array(10)
+print(arr)
+```
+
+**📤 Output**
+
+```text
+10
+```
+
+**2. 1-D Array**
+
+```python
+import numpy as np
+
+arr = np.array([10, 20, 30])
+print(arr)
+```
+
+**📤 Output**
+
+```text
+[10 20 30]
+```
+
+**3. 2-D Array**
+
+```python
+import numpy as np
+
+arr = np.array([[1, 2, 3], [4, 5, 6]])
+print(arr)
+```
+
+**📤 Output**
+
+```text
+[[1 2 3]
+ [4 5 6]]
+```
+
+**4. N-D Array**
+
+> 🔹 NumPy can also create arrays with three or more dimensions by nesting lists.
+
+```python
+import numpy as np
+
+arr = np.array([[[1, 2], [3, 4]],
+                [[5, 6], [7, 8]]])
+
+print(arr)
+```
+
+**📤 Output**
+
+```text
+[[[1 2]
+  [3 4]]
+
+ [[5 6]
+  [7 8]]]
+```
+
+> 💡 **Note:** The number of dimensions of a NumPy array can be checked using `arr.ndim`.
+
+---
+
 ---
  
 <div align="center">
