@@ -807,7 +807,7 @@ python -m pip show numpy
 import numpy as np
 
 # Integer array
-arr = ([1, 2, 3, 4, 5, 6, 7, 8, 9], dtype=int)
+arr = np.array([1, 2, 3, 4, 5, 6, 7, 8, 9], dtype=int)
 res = np.array(arr)
 
 print(res)
