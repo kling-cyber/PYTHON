@@ -1436,6 +1436,91 @@ print(a ^ b)  # Symmetric difference
 {1, 2, 5, 6}
 ```
 
+
+---
+
+## ⚖️ Difference Between List, Tuple, Dictionary, and Set
+
+These four data structures can all store multiple values, but they organize and access those values differently.
+
+### 🧠 First, understand the main idea
+
+- **List `[]`**: A changeable sequence. It keeps items in order and allows duplicates.
+- **Tuple `()`**: A fixed sequence. It keeps items in order and allows duplicates, but you cannot change its elements.
+- **Dictionary `{key: value}`**: Stores information as key-value pairs. You look up a value using its key.
+- **Set `{}`**: Stores unique values. It removes duplicates automatically and does not support indexing.
+
+### 📊 Comparison Table
+
+| Feature | List | Tuple | Dictionary | Set |
+|---|---|---|---|---|
+| Syntax | `[ ]` | `( )` | `{key: value}` | `{ }` |
+| Ordered? | Yes | Yes | Yes, insertion order | No guaranteed order |
+| Mutable? | Yes | No | Yes | Yes |
+| Allows duplicates? | Yes | Yes | Keys: No; values: Yes | No |
+| Access | Index | Index | Key | No index |
+| Add / remove items? | Yes | No direct item changes | Yes | Yes |
+| Slicing? | Yes | Yes | No | No |
+| Best used for | Changeable sequence | Fixed sequence | Labeled information | Unique items |
+
+> 💡 **Important:** A dictionary's keys must be unique. Its values can repeat. Set elements must be hashable, so a list or dictionary cannot be stored directly inside a set.
+
+### 🎯 One Example That Makes Everything Click
+
+Imagine you are building a college student record system. You want to store the students, keep a fixed student profile, save details with labels, and find the unique courses.
+
+```python
+# 1. LIST: Student names in order.
+# We can add, remove, or change names.
+students = ["Amit", "Riya", "Kavish", "Amit"]
+
+# 2. TUPLE: A fixed profile for one student.
+# The values stay in their original positions.
+student_profile = ("Kavish", 20, "Computer Engineering")
+
+# 3. DICTIONARY: Details with meaningful labels.
+# We access each value using its key.
+student_details = {
+    "name": "Kavish",
+    "age": 20,
+    "course": "Computer Engineering"
+}
+
+# 4. SET: Unique courses in the college.
+# Repeated course names are automatically removed.
+courses = {"Python", "Java", "Python", "C"}
+
+print("LIST:", students)
+print("TUPLE:", student_profile)
+print("DICTIONARY:", student_details)
+print("Student name:", student_details["name"])
+print("SET:", courses)
+```
+
+**📤 Example Output**
+
+```text
+LIST: ['Amit', 'Riya', 'Kavish', 'Amit']
+TUPLE: ('Kavish', 20, 'Computer Engineering')
+DICTIONARY: {'name': 'Kavish', 'age': 20, 'course': 'Computer Engineering'}
+Student name: Kavish
+SET: {'Python', 'Java', 'C'}
+```
+
+> 💡 **Why each one is different:**
+>
+> - The **list** keeps the student names in order and allows "Amit" to appear twice.
+> - The **tuple** keeps the profile values in a fixed order. You can read them, but you cannot replace an element.
+> - The **dictionary** gives every detail a label, so `student_details["age"]` is clearer than remembering a position.
+> - The **set** keeps only one copy of each course. Its display order may vary.
+
+### 🧪 Quick Memory Trick
+
+- **List = Editable list of things**
+- **Tuple = Fixed group of things**
+- **Dictionary = Details with labels**
+- **Set = Unique things only**
+
 ---
 
 <div align="center">
