@@ -1054,8 +1054,377 @@ print(arr)
 
 ---
 
+## 🧱 Python Data Structures
+
+> 📦 **Data structures** are used to organize, store, manage, and access data in a program so that different operations can be performed efficiently.
+>
+> 🔹 They help store multiple values, update or remove data, search and sort information, and access values using an index or a key.
+
+### 📚 Types of Data Structures
+
+| Data Structure | Description | Mutable / Immutable |
+|---|---|---|
+| 🔤 **String (`str`)** | A sequence of characters enclosed in single or double quotes. | Immutable |
+| 🗂️ **Dictionary (`dict`)** | Stores data in key-value pairs. | Mutable |
+| 📋 **List (`list`)** | Stores multiple values in an ordered collection. | Mutable |
+| 📦 **Tuple (`tuple`)** | Stores multiple values in an ordered collection. | Immutable |
+| 🔹 **Set (`set`)** | Stores unique values. | Mutable |
+
+### 🔤 1. Strings
+
+> 🔹 A **string** is a sequence of characters enclosed in single quotes (`''`) or double quotes (`""`).
+>
+> 🔹 Strings are **immutable**, which means their characters cannot be changed after the string is created.
+>
+> 🔹 Triple quotes can be used to create a multi-line string.
+
+**💡 Example**
+
+```python
+# Single and double quotes
+name = 'Python'
+message = "Learning Python is fun!"
+
+# Multi-line string
+details = """
+Python is easy to learn.
+It is used in many fields.
+"""
+
+print(name)
+print(message)
+print(details)
+print(type(name))
+```
+
+**📤 Output**
+
+```text
+Python
+Learning Python is fun!
+
+Python is easy to learn.
+It is used in many fields.
+
+<class 'str'>
+```
+
+### ✂️ String Slicing
+
+> 🔹 Slicing is used to access a part of a string.
+>
+> 🔹 The syntax is `string[start:stop:step]`. The stop position is not included.
+>
+> 🔹 Negative indexing can be used to access characters from the end of a string.
+
+**💡 Example**
+
+```python
+text = "PYTHON"
+
+print(text[0:3])
+print(text[::1])
+print(text[::-1])
+print(text[-3:])
+```
+
+**📤 Output**
+
+```text
+PYT
+PYTHON
+NOHTYP
+HON
+```
+
+> 💡 **Note:** String methods such as `upper()`, `lower()`, `capitalize()`, `find()`, and `count()` are covered in the String Methods table above.
+
+### 🗂️ 2. Dictionaries
+
+> 🔹 A **dictionary** stores data in **key-value pairs** using curly brackets (`{}`).
+>
+> 🔹 A dictionary is mutable, so items can be added, changed, or removed.
+>
+> 🔹 Values can contain different data types, including lists and other dictionaries.
+>
+> 🔹 A dictionary can also be created using the `dict()` constructor.
+
+**💡 Example: Creating a Dictionary**
+
+```python
+student = {
+    "name": "Kavish",
+    "age": 20,
+    "course": "Python"
+}
+
+print(student)
+print(type(student))
+print(student["name"])
+print(student["age"])
+```
+
+**📤 Output**
+
+```text
+{'name': 'Kavish', 'age': 20, 'course': 'Python'}
+<class 'dict'>
+Kavish
+20
+```
+
+**💡 Example: Using the `dict()` Constructor**
+
+```python
+student = dict(name="Kavish", age=20, course="Python")
+print(student)
+```
+
+**📤 Output**
+
+```text
+{'name': 'Kavish', 'age': 20, 'course': 'Python'}
+```
+
+### 🛠️ Dictionary Operations
+
+| Operation | Description | Example |
+|---|---|---|
+| Access | Gets a value using its key | `student["name"]` |
+| Add | Adds a new key-value pair | `student["city"] = "Vadodara"` |
+| Update | Changes an existing value | `student["age"] = 21` |
+| `keys()` | Returns all keys | `student.keys()` |
+| `values()` | Returns all values | `student.values()` |
+| `items()` | Returns key-value pairs | `student.items()` |
+| `pop()` | Removes the item with the given key | `student.pop("course")` |
+| `clear()` | Removes all items | `student.clear()` |
+| `update()` | Adds or updates key-value pairs | `student.update({"age": 22})` |
+
+**💡 Example: Adding, Updating, and Iterating**
+
+```python
+student = {"name": "Kavish", "age": 20}
+
+student["city"] = "Vadodara"
+student.update({"age": 21})
+
+for key, value in student.items():
+    print(key, value)
+```
+
+**📤 Output**
+
+```text
+name Kavish
+age 21
+city Vadodara
+```
+
+### 🔀 Nested Data Structures
+
+> 🔹 A dictionary can store a list as a value. This is useful when one key needs to hold multiple related values.
+
+**💡 Example**
+
+```python
+employee = {
+    "name": ["Amit", "Riya", "Kavish"],
+    "age": [22, 21, 20]
+}
+
+print(employee["name"])
+print(employee["age"])
+print(employee["name"][2])
+```
+
+**📤 Output**
+
+```text
+['Amit', 'Riya', 'Kavish']
+[22, 21, 20]
+Kavish
+```
+
+### 📋 3. Lists
+
+> 🔹 A **list** stores multiple values in an ordered collection.
+>
+> 🔹 Lists are mutable, which means their elements can be changed, added, or removed.
+>
+> 🔹 Lists are created using square brackets (`[]`) or the `list()` constructor.
+>
+> 🔹 List indexing starts from `0`.
+
+**💡 Example: Creating and Accessing a List**
+
+```python
+numbers = [10, 20, 30, 40]
+
+print(numbers)
+print(type(numbers))
+print(numbers[0])
+print(numbers[-1])
+```
+
+**📤 Output**
+
+```text
+[10, 20, 30, 40]
+<class 'list'>
+10
+40
+```
+
+**💡 Example: Using the `list()` Constructor**
+
+```python
+numbers = list((10, 20, 30))
+print(numbers)
+```
+
+**📤 Output**
+
+```text
+[10, 20, 30]
+```
+
+### ✂️ List Slicing and Updating
+
+> 🔹 Slicing is used to access a range of list elements.
+>
+> 🔹 Since lists are mutable, an element can be changed by assigning a new value to its index.
+
+**💡 Example**
+
+```python
+numbers = [10, 20, 30, 40, 50]
+
+print(numbers[1:4])
+print(numbers[::-1])
+
+numbers[1] = 25
+print(numbers)
+```
+
+**📤 Output**
+
+```text
+[20, 30, 40]
+[50, 40, 30, 20, 10]
+[10, 25, 30, 40, 50]
+```
+
+> 💡 **Note:** Common list methods such as `append()`, `extend()`, `insert()`, `remove()`, and `pop()` are covered in the List Methods table above.
+
+### 📦 4. Tuples
+
+> 🔹 A **tuple** stores multiple values in an ordered collection.
+>
+> 🔹 Tuples are **immutable**, which means their elements cannot be changed after creation.
+>
+> 🔹 Tuples are created using parentheses (`()`) or the `tuple()` constructor.
+
+**💡 Example: Creating and Accessing a Tuple**
+
+```python
+student = ("Kavish", 20, "Python")
+
+print(student)
+print(type(student))
+print(student[0])
+print(student[-1])
+```
+
+**📤 Output**
+
+```text
+('Kavish', 20, 'Python')
+<class 'tuple'>
+Kavish
+Python
+```
+
+**💡 Example: Using the `tuple()` Constructor**
+
+```python
+numbers = tuple([10, 20, 30])
+print(numbers)
+```
+
+**📤 Output**
+
+```text
+(10, 20, 30)
+```
+
+> ⚠️ **Note:** You can access tuple elements using indexing and slicing, but you cannot assign a new value to an existing tuple position.
+
+### 🔹 5. Sets
+
+> 🔹 A **set** is a collection of unique values.
+>
+> 🔹 Sets are mutable, so values can be added or removed. However, individual elements do not have fixed positions, so sets do not support indexing.
+>
+> 🔹 Sets are created using curly brackets (`{}`) or the `set()` constructor.
+>
+> 🔹 An empty set must be created using `set()`, because `{}` creates an empty dictionary.
+
+**💡 Example: Creating a Set**
+
+```python
+numbers = {10, 20, 20, 30, 40}
+
+print(numbers)
+print(type(numbers))
+```
+
+**📤 Output**
+
+```text
+{10, 20, 30, 40}
+<class 'set'>
+```
+
+> 💡 **Note:** Set elements are unique, so duplicate values are automatically removed. The display order of set elements is not guaranteed.
+
+### 🛠️ Common Set Operations
+
+| Method | Description | Example |
+|---|---|---|
+| `add()` | Adds one value | `numbers.add(50)` |
+| `update()` | Adds values from another iterable | `numbers.update([60, 70])` |
+| `remove()` | Removes a value; raises an error if absent | `numbers.remove(20)` |
+| `discard()` | Removes a value without an error if absent | `numbers.discard(20)` |
+| `pop()` | Removes and returns an arbitrary element | `numbers.pop()` |
+| `clear()` | Removes all elements | `numbers.clear()` |
+
+### 🔗 Set Operations
+
+> 🔹 Sets support mathematical operations such as union, intersection, difference, and symmetric difference.
+
+**💡 Example**
+
+```python
+a = {1, 2, 3, 4}
+b = {3, 4, 5, 6}
+
+print(a | b)  # Union
+print(a & b)  # Intersection
+print(a - b)  # Difference
+print(a ^ b)  # Symmetric difference
+```
+
+**📤 Output**
+
+```text
+{1, 2, 3, 4, 5, 6}
+{3, 4}
+{1, 2}
+{1, 2, 5, 6}
+```
+
 ---
- 
+
 <div align="center">
 
 ### 🐍✨ Python • Learn • Build • Create ✨🐍
