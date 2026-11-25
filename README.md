@@ -842,6 +842,33 @@ for number in range(1, 4):
     print(number)
 ```
 
+## 🧱 What are Data Structures in Python?
+
+> 📦 Data structures are used to organising, storing, managing and accessing data in a computer program so that we can perform operations efficiently.
+
+### ⭐ Advantages of Data Structures
+
+1. Store multiple values in a single variable.
+2. Store data efficiently.
+3. Update, append, or remove data.
+4. Search and sort data.
+5. Organize large amounts of data efficiently.
+6. Access data using an index or key.
+7. Perform slicing on supported data structures.
+8. Create a structured data format.
+
+### 📚 Types of Data Structures in Python
+
+1. **String:** Provides immutable elements.
+2. **Dictionary:** Provides mutable elements.
+3. **List:** Provides mutable elements.
+4. **Tuple:** Provides immutable elements.
+5. **Set:** Stores unique elements and is mutable.
+
+> 💡 **Note:** The set is mutable as a collection, but its individual elements must be immutable (hashable). Sets do not have indexes.
+
+---
+
 ## 🔢 Python Arrays
 
 > 📦 An **array** is a data structure used to store multiple values in an organized way.
@@ -1055,20 +1082,6 @@ print(arr)
 ---
 
 ## 🧱 Python Data Structures
-
-> 📦 **Data structures** are used to organize, store, manage, and access data in a program so that different operations can be performed efficiently.
->
-> 🔹 They help store multiple values, update or remove data, search and sort information, and access values using an index or a key.
-
-### 📚 Types of Data Structures
-
-| Data Structure | Description | Mutable / Immutable |
-|---|---|---|
-| 🔤 **String (`str`)** | A sequence of characters enclosed in single or double quotes. | Immutable |
-| 🗂️ **Dictionary (`dict`)** | Stores data in key-value pairs. | Mutable |
-| 📋 **List (`list`)** | Stores multiple values in an ordered collection. | Mutable |
-| 📦 **Tuple (`tuple`)** | Stores multiple values in an ordered collection. | Immutable |
-| 🔹 **Set (`set`)** | Stores unique values. | Mutable |
 
 ### 🔤 1. Strings
 
