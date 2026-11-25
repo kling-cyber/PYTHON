@@ -358,6 +358,70 @@ greet("Kavish")           # "Kavish" is an argument
 Hello Kavish
 ```
 
+### 🧰 Types of Functions
+
+Python functions can be grouped into two main types:
+
+1. 🐍 **Built-in Functions:** Functions already provided by Python, such as `print()`, `input()`, `len()`, and `type()`.
+2. 👨‍💻 **User-Defined Functions:** Functions created by the programmer using the `def` keyword.
+
+**💡 Example**
+
+```python
+# Built-in function
+numbers = [10, 20, 30]
+print(len(numbers))
+
+# User-defined function
+def greet():
+    print("Hello, Python!")
+
+greet()
+```
+
+**📤 Output**
+
+```text
+3
+Hello, Python!
+```
+
+### 🔁 How Arguments Are Passed to Functions
+
+> 🔹 **Call by Value** and **Call by Reference** are two common terms used to explain how values are passed to functions.
+>
+> 🔹 In Python, arguments are passed by object reference (also called call by sharing). A function receives a reference to the same object.
+>
+> 🔹 If a mutable object, such as a list, is changed inside a function, that change can be seen outside the function. Reassigning a parameter does not replace the caller's variable.
+
+**💡 Example**
+
+```python
+def update_list(items):
+    items.append(40)
+
+def change_number(number):
+    number = 100
+
+numbers = [10, 20, 30]
+value = 50
+
+update_list(numbers)
+change_number(value)
+
+print(numbers)
+print(value)
+```
+
+**📤 Output**
+
+```text
+[10, 20, 30, 40]
+50
+```
+
+> 💡 **Note:** Python is not strictly call by value or call by reference. It uses object-reference passing, so the effect depends on whether the object is mutable or immutable.
+
 ### ↩️ Return Statement
 
 > 🔹 The `return` statement sends a result back from a function to the place where it was called.
@@ -422,6 +486,37 @@ print(square(8))
 > 🔹 The `import` statement loads a module so that its functions and other definitions can be used in another Python file.
 >
 > 🔹 This avoids writing the same code again.
+
+### 🏷️ Import Aliases Using `as`
+
+> 🔹 The `as` keyword is used to give a shorter or different name (alias) to an imported module.
+>
+> 🔹 This alias can then be used to access the module's functions and other definitions.
+
+**💡 Example**
+
+```python
+import pandas as pd
+
+data = {
+    "name": ["Amit", "Riya", "Kavish"],
+    "age": [20, 21, 20]
+}
+
+df = pd.DataFrame(data)
+print(df)
+```
+
+**📤 Output**
+
+```text
+     name  age
+0    Amit   20
+1    Riya   21
+2  Kavish   20
+```
+
+> 💡 **Note:** Here, `pd` is the alias for the `pandas` module. The same module can be accessed using `pd` instead of writing `pandas` each time.
 
 ### 💡 Example: Creating a Module with a Function
 
