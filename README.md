@@ -597,6 +597,112 @@ print(sys.version)
 pip install package_name
 ```
 
+
+---
+
+## 🧪 Virtual Environments
+
+### 1. What is a Virtual Environment?
+
+A **virtual environment** is an isolated Python environment for a particular project. It keeps that project's installed packages separate from packages used by other projects.
+
+Developers use virtual environments to:
+- Keep project dependencies separate.
+- Avoid conflicts between package versions.
+- Recreate the same package setup when working on another computer.
+
+### 2. Why Do We Need It?
+
+Different projects may need different versions of the same package.
+
+For example:
+- **Project A** may need an older version of a package.
+- **Project B** may need a newer version.
+
+Installing everything into one shared Python environment can cause version conflicts. A separate virtual environment lets each project use the package versions it needs.
+
+### 3. Creating a Virtual Environment
+
+Open a terminal in your project folder and run:
+
+```bash
+python -m venv venv
+```
+
+This creates a folder named `venv` containing the isolated environment for that project.
+
+### 4. Activating on Windows (Command Prompt)
+
+In Windows Command Prompt, run:
+
+```bat
+venv\Scripts\activate
+```
+
+When the environment is active, its name usually appears at the beginning of the terminal prompt:
+
+```text
+(venv) C:\path\to\your\project>
+```
+
+### 5. Deactivating
+
+To leave the active virtual environment, run:
+
+```bash
+deactivate
+```
+
+This returns the terminal to the normal Python environment.
+
+### 6. Installing Packages
+
+Activate the environment first. Then install packages using `pip`.
+
+For example, to install NumPy:
+
+```bash
+pip install numpy
+```
+
+The package is installed in the active virtual environment rather than being added to every Python project on your computer.
+
+### 7. Deleting an Environment
+
+A virtual environment can be safely removed when it is no longer needed.
+
+1. Run `deactivate` if the environment is currently active.
+2. Delete the project's `venv` folder.
+3. To create it again, run:
+
+```bash
+python -m venv venv
+```
+
+Deleting the `venv` folder removes that environment and its installed packages. It does not delete your project files or uninstall the main Python installation.
+
+### 8. Using `.gitignore`
+
+A virtual environment contains many generated files and can be large. It should generally not be uploaded to GitHub.
+
+Add the following entries to the repository's `.gitignore` file:
+
+```gitignore
+# Python virtual environments
+venv/
+.venv/
+**/venv/
+**/.venv/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+```
+
+Keep your source code and project files in GitHub. Other developers can create their own virtual environment on their computers.
+
+> 💡 **Remember:** A virtual environment is separate from the actual Python installation. Python itself must be installed on your computer; the virtual environment uses that Python installation to create an isolated place for project-specific packages. In VS Code, select the project's virtual environment as the Python interpreter so the editor and terminal use the correct environment.
+
 ---
 
 ## ⚙️ Operators
