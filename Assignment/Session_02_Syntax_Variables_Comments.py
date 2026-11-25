@@ -4,7 +4,7 @@
 item_price = 550
 delivery_fee = 30
 coupon_discount = 20
-Q
+
 print("Item price:", item_price)
 print("Delivery fee:", delivery_fee)
 print("Coupon discount:", coupon_discount)
