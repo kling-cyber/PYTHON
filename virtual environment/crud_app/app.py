@@ -3,6 +3,7 @@ import pandas as pd
 import numpy as np
 import openpyxl
 from mysql.connector import Error
+
 try:
     conn = mysql.connector.connect(
         host="127.0.0.1",
@@ -11,7 +12,7 @@ try:
         password="",
         database="crud-app-db"
     )
-    
+
     if conn.is_connected():
         print("Connected to MySQL database!")
         cur = conn.cursor()
@@ -23,12 +24,13 @@ try:
                 address TEXT
             )
         """)
-        cur.execute(
-        """
-            inset
-        """
-        )
-        print("Table 'users' created successfully!")
+        print("Table 'users' is ready.")
 
 except Error as e:
     print("Error while connecting to MySQL:", e)
+
+finally:
+    if "cur" in locals():
+        cur.close()
+    if "conn" in locals() and conn.is_connected():
+        conn.close()
