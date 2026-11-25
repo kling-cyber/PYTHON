@@ -1,8 +1,8 @@
-# A dict is stored data in {key:value} paired
-# A dict is provides mutable elements can be changed
-# A dict can be repeated the dublicate values  
-# A dict defined as constructor sam name of dict()
-# stored any data types values in dict()
+# A dict stores data in key:value pairs.
+# A dict is mutable, so its elements can be changed.
+# A dict can contain duplicate values.
+# A dict can be defined using the dict() constructor.
+# Dictionary values can have any data type.
 
 # employee={
 #     "name":["twinkle","kavish","noorie","jay"],
@@ -15,49 +15,47 @@
 
 
 # employee={
-#     id:1, "name":"brijesh","age":35,"edu":"IT"
+#     "id":1, "name":"brijesh","age":35,"edu":"IT"
 # }
 # print(employee)
 # print(type(employee))
 # print(employee["name"])
 
 
-# dictionary as constructor 
-# employee=dict({id:1, "name":"brijesh","age":35,"edu":"IT"})
+# dictionary as constructor
+# employee=dict({"id":1, "name":"brijesh","age":35,"edu":"IT"})
 # print(employee)
 # print(type(employee))
 
 
-# employee=dict({id:1, "name":"brijesh","age":35,"edu":"IT"})
+# employee=dict({"id":1, "name":"brijesh","age":35,"edu":"IT"})
 # print(employee)
 # print(type(employee))
 
-# iterate a dictionary 
+# iterate a dictionary
 # for emp in employee:
 #     print(emp)
 #     print(type(emp))
 
 
-
 employee={
-    id:1, 
+    "id":1,
     "name":"brijesh",
     "age":35,
     "edu":"IT"
 }
 
-# dictionary method 
+# dictionary method
 # res=dict(reversed(list(employee.items())))
 # print(res)
 
 # res=employee.keys()
 # print(res)
 
-
 # res=employee.values()
 # print(res)
 
-# removed 
+# removed
 # res=employee.pop("edu")
 # print(res)
 # print(employee)
@@ -82,13 +80,12 @@ print(type(employee))
 # for i in employee:
 #     print(i)
 
-# iterate with values 
+# iterate with values
 for i in employee.values():
     print(i)
     print(type(i))
 
-# iterate key and values used items()
-
+# iterate key and values using items()
 for i in employee.items():
     print(i)
-    #print(type(i))
+    # print(type(i))
