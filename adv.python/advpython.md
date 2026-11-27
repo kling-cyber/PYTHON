@@ -46,7 +46,7 @@ Python provides built-in functions and methods that make it easier to read, writ
 11. **`writelines()`**: write a list/line of string to the files.
 12. **`truncate()`**: truncate the file of specific value.
 13. **`os.remove()`**: simple module that used to remove a file from file system.
-14. **os.remove():** rename a file from the file system.
+14. **`os.remove()`**: rename a file from the file system.
 15. **`os.path.dirname()`**: returns a directory name of a file.
 
 ### 📂 File Handling Modes
