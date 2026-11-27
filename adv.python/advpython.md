@@ -10,15 +10,6 @@
 
 ---
 
-## 📚 Table of Contents
-
-- [File Handling](#file-handling)
-  - [What is File Handling?](#what-is-file-handling)
-  - [Functions Used in File Handling](#functions-used-in-file-handling)
-  - [File Handling Modes](#file-handling-modes)
-
----
-
 ## 📁 File Handling 
 
 ### 📖 What is File Handling?
