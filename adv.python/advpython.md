@@ -48,8 +48,8 @@ Python provides different file modes for reading, writing, and appending data to
 2. **`r+`**: read and write mode used to write content in files, if file does not exist cannot create new file.
 3. **`w`**: write mode used to owrite content in file and if file does not exist  create new file.
 4. **`w+`**: open a file to read | write content | if file does not exist cannot create new file.
-5. **`a`**:
-6. **`a+`**: 
+5. **`a`**: append mode is used to open file and used for append data or content if file does not exist create new file
+6. **`a+`**: append and read mode | mode is used to open file for both append and read | if file does not exist can not create a new file
 ---
 
 <div align="center">
